@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>D O'Keeffe | Thomas Pasquier</title><link>https://tfjmp.org/author/d-okeeffe/</link><atom:link href="https://tfjmp.org/author/d-okeeffe/index.xml" rel="self" type="application/rss+xml"/><description>D O'Keeffe</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate><image><url>https://tfjmp.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>D O'Keeffe</title><link>https://tfjmp.org/author/d-okeeffe/</link></image><item><title>Facilitating plausible deniability for cloud providers regarding tenants' activities using trusted execution</title><link>https://tfjmp.org/publication/2020-ic2e/</link><pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2020-ic2e/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>D O&#39;Keeffe | Thomas Pasquier</title>
+    <link>https://tfjmp.org/author/d-okeeffe/</link>
+      <atom:link href="https://tfjmp.org/author/d-okeeffe/index.xml" rel="self" type="application/rss+xml" />
+    <description>D O&#39;Keeffe</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tfjmp.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>D O&#39;Keeffe</title>
+      <link>https://tfjmp.org/author/d-okeeffe/</link>
+    </image>
+    
+    <item>
+      <title>Facilitating plausible deniability for cloud providers regarding tenants&#39; activities using trusted execution</title>
+      <link>https://tfjmp.org/publication/2020-ic2e/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2020-ic2e/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

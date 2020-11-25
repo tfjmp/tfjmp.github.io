@@ -1,8 +1,235 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1 | Thomas Pasquier</title><link>https://tfjmp.org/publication-type/1/</link><atom:link href="https://tfjmp.org/publication-type/1/index.xml" rel="self" type="application/rss+xml"/><description>1</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate><image><url>https://tfjmp.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>1</title><link>https://tfjmp.org/publication-type/1/</link></image><item><title>Accelerating the Configuration Tuning of Big Data Analytics with Similarity-aware Multitask Bayesian Optimization</title><link>https://tfjmp.org/publication/2020-bigdata/</link><pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2020-bigdata/</guid><description/></item><item><title>SIGL: Securing Software Installations Through Deep Graph Learning</title><link>https://tfjmp.org/publication/2021-usenixsec/</link><pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2021-usenixsec/</guid><description/></item><item><title>To Tune or Not to Tune? In Search of Optimal Configurations for Data Analytics</title><link>https://tfjmp.org/publication/2020-kdd/</link><pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2020-kdd/</guid><description/></item><item><title>Xanthus: Push-button Orchestration of Host Provenance Data Collection</title><link>https://tfjmp.org/publication/2020-precs/</link><pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2020-precs/</guid><description>&lt;p>Test&lt;/p>
-&lt;div align="center">
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/50PpVxcy5WM?start=4017" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;/div></description></item><item><title>UNICORN: Runtime Provenance-Based Detector for Advanced Persistent Threats</title><link>https://tfjmp.org/publication/2020-ndss/</link><pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2020-ndss/</guid><description>&lt;div align="center">
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/B9ACkb320s0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;/div></description></item><item><title>Facilitating plausible deniability for cloud providers regarding tenants' activities using trusted execution</title><link>https://tfjmp.org/publication/2020-ic2e/</link><pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2020-ic2e/</guid><description/></item><item><title>ProvMark: A Provenance Expressiveness Benchmarking System</title><link>https://tfjmp.org/publication/2019-middleware/</link><pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2019-middleware/</guid><description/></item><item><title>From Here to Provtopia</title><link>https://tfjmp.org/publication/2019-poly/</link><pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2019-poly/</guid><description/></item><item><title>Towards Seamless Configuration Tuning of Big Data Analytics</title><link>https://tfjmp.org/publication/2019-icdcs/</link><pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2019-icdcs/</guid><description/></item><item><title>Runtime Analysis of Whole-System Provenance</title><link>https://tfjmp.org/publication/2018-ccs/</link><pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2018-ccs/</guid><description>&lt;div align="center">
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6VBVwH88o4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;/div></description></item><item><title>Provenance-based Intrusion Detection: Opportunities and Challenges</title><link>https://tfjmp.org/publication/2018-tapp/</link><pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2018-tapp/</guid><description/></item><item><title>Practical Whole-System Provenance Capture</title><link>https://tfjmp.org/publication/2017-socc/</link><pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2017-socc/</guid><description/></item><item><title>FRAPpuccino: Fault-detection through Runtime Analysis of Provenance</title><link>https://tfjmp.org/publication/2017-hotcloud/</link><pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2017-hotcloud/</guid><description/></item><item><title>PHP2Uni: Building Unikernels using Scripting Language Transpilation</title><link>https://tfjmp.org/publication/2017-ic2e/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2017-ic2e/</guid><description/></item><item><title>Big Ideas paper: Policy-driven middleware for a legally-compliant Internet of Things</title><link>https://tfjmp.org/publication/2016-mw/</link><pubDate>Mon, 12 Dec 2016 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2016-mw/</guid><description>&lt;p>&lt;a href="https://www.cl.cam.ac.uk/ring/awards.html" target="_blank" rel="noopener">University of Cambridge Computer Laboratory Publication of the Year Award&lt;/a>&lt;/p></description></item><item><title>Data-Centric Access Control for Cloud Computing</title><link>https://tfjmp.org/publication/2016-sacmat/</link><pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2016-sacmat/</guid><description/></item><item><title>Information Flow Audit for Transparency and Compliance in the Handling of Personal Data</title><link>https://tfjmp.org/publication/2016-claw/</link><pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2016-claw/</guid><description/></item><item><title>Information Flow Audit for PaaS clouds</title><link>https://tfjmp.org/publication/2016-ic2e/</link><pubDate>Mon, 04 Apr 2016 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2016-ic2e/</guid><description/></item><item><title>Clouds of Things Need Information Flow Control with Hardware Roots of Trust</title><link>https://tfjmp.org/publication/2015-cloudcom/</link><pubDate>Mon, 30 Nov 2015 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2015-cloudcom/</guid><description/></item><item><title>Managing Big Data with Information Flow Control</title><link>https://tfjmp.org/publication/2015-cloud/</link><pubDate>Sat, 27 Jun 2015 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2015-cloud/</guid><description/></item><item><title>Securing Tags to Control Information Flows within the Internet of Things</title><link>https://tfjmp.org/publication/2015-riot/</link><pubDate>Tue, 07 Apr 2015 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2015-riot/</guid><description/></item><item><title>Integrating Middleware with Information Flow Control</title><link>https://tfjmp.org/publication/2015-ic2e/</link><pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2015-ic2e/</guid><description/></item><item><title>Expressing and Enforcing Location Requirements in the Cloud using Information Flow Control</title><link>https://tfjmp.org/publication/2015-claw/</link><pubDate>Sun, 08 Mar 2015 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2015-claw/</guid><description/></item><item><title>Information Flow Control for Strong Protection with Flexible Sharing in PaaS</title><link>https://tfjmp.org/publication/2015-fpaas/</link><pubDate>Sun, 08 Mar 2015 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2015-fpaas/</guid><description/></item><item><title>FlowK: Information Flow Control for the Cloud</title><link>https://tfjmp.org/publication/2014-cloudcom/</link><pubDate>Mon, 15 Dec 2014 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2014-cloudcom/</guid><description/></item><item><title>FlowR: Aspect Oriented Programming for Information Flow Control in Ruby</title><link>https://tfjmp.org/publication/2014-modularity/</link><pubDate>Tue, 22 Apr 2014 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2014-modularity/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Thomas Pasquier</title>
+    <link>https://tfjmp.org/publication-type/1/</link>
+      <atom:link href="https://tfjmp.org/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tfjmp.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>1</title>
+      <link>https://tfjmp.org/publication-type/1/</link>
+    </image>
+    
+    <item>
+      <title>Accelerating the Configuration Tuning of Big Data Analytics with Similarity-aware Multitask Bayesian Optimization</title>
+      <link>https://tfjmp.org/publication/2020-bigdata/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2020-bigdata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SIGL: Securing Software Installations Through Deep Graph Learning</title>
+      <link>https://tfjmp.org/publication/2021-usenixsec/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2021-usenixsec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>To Tune or Not to Tune? In Search of Optimal Configurations for Data Analytics</title>
+      <link>https://tfjmp.org/publication/2020-kdd/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2020-kdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xanthus: Push-button Orchestration of Host Provenance Data Collection</title>
+      <link>https://tfjmp.org/publication/2020-precs/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2020-precs/</guid>
+      <description>&lt;p&gt;Test&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/50PpVxcy5WM?start=4017&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UNICORN: Runtime Provenance-Based Detector for Advanced Persistent Threats</title>
+      <link>https://tfjmp.org/publication/2020-ndss/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2020-ndss/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/B9ACkb320s0&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Facilitating plausible deniability for cloud providers regarding tenants&#39; activities using trusted execution</title>
+      <link>https://tfjmp.org/publication/2020-ic2e/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2020-ic2e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ProvMark: A Provenance Expressiveness Benchmarking System</title>
+      <link>https://tfjmp.org/publication/2019-middleware/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2019-middleware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Here to Provtopia</title>
+      <link>https://tfjmp.org/publication/2019-poly/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2019-poly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Seamless Configuration Tuning of Big Data Analytics</title>
+      <link>https://tfjmp.org/publication/2019-icdcs/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2019-icdcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Runtime Analysis of Whole-System Provenance</title>
+      <link>https://tfjmp.org/publication/2018-ccs/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2018-ccs/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/6VBVwH88o4Y&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Provenance-based Intrusion Detection: Opportunities and Challenges</title>
+      <link>https://tfjmp.org/publication/2018-tapp/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2018-tapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practical Whole-System Provenance Capture</title>
+      <link>https://tfjmp.org/publication/2017-socc/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2017-socc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FRAPpuccino: Fault-detection through Runtime Analysis of Provenance</title>
+      <link>https://tfjmp.org/publication/2017-hotcloud/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2017-hotcloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PHP2Uni: Building Unikernels using Scripting Language Transpilation</title>
+      <link>https://tfjmp.org/publication/2017-ic2e/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2017-ic2e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big Ideas paper: Policy-driven middleware for a legally-compliant Internet of Things</title>
+      <link>https://tfjmp.org/publication/2016-mw/</link>
+      <pubDate>Mon, 12 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2016-mw/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.cl.cam.ac.uk/ring/awards.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Cambridge Computer Laboratory Publication of the Year Award&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data-Centric Access Control for Cloud Computing</title>
+      <link>https://tfjmp.org/publication/2016-sacmat/</link>
+      <pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2016-sacmat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information Flow Audit for Transparency and Compliance in the Handling of Personal Data</title>
+      <link>https://tfjmp.org/publication/2016-claw/</link>
+      <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2016-claw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information Flow Audit for PaaS clouds</title>
+      <link>https://tfjmp.org/publication/2016-ic2e/</link>
+      <pubDate>Mon, 04 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2016-ic2e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clouds of Things Need Information Flow Control with Hardware Roots of Trust</title>
+      <link>https://tfjmp.org/publication/2015-cloudcom/</link>
+      <pubDate>Mon, 30 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2015-cloudcom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Managing Big Data with Information Flow Control</title>
+      <link>https://tfjmp.org/publication/2015-cloud/</link>
+      <pubDate>Sat, 27 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2015-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Securing Tags to Control Information Flows within the Internet of Things</title>
+      <link>https://tfjmp.org/publication/2015-riot/</link>
+      <pubDate>Tue, 07 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2015-riot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating Middleware with Information Flow Control</title>
+      <link>https://tfjmp.org/publication/2015-ic2e/</link>
+      <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2015-ic2e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expressing and Enforcing Location Requirements in the Cloud using Information Flow Control</title>
+      <link>https://tfjmp.org/publication/2015-claw/</link>
+      <pubDate>Sun, 08 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2015-claw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information Flow Control for Strong Protection with Flexible Sharing in PaaS</title>
+      <link>https://tfjmp.org/publication/2015-fpaas/</link>
+      <pubDate>Sun, 08 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2015-fpaas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FlowK: Information Flow Control for the Cloud</title>
+      <link>https://tfjmp.org/publication/2014-cloudcom/</link>
+      <pubDate>Mon, 15 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2014-cloudcom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FlowR: Aspect Oriented Programming for Information Flow Control in Ruby</title>
+      <link>https://tfjmp.org/publication/2014-modularity/</link>
+      <pubDate>Tue, 22 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2014-modularity/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

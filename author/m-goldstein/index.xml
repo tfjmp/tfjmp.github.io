@@ -1,1 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M Goldstein | Thomas Pasquier</title><link>https://tfjmp.org/author/m-goldstein/</link><atom:link href="https://tfjmp.org/author/m-goldstein/index.xml" rel="self" type="application/rss+xml"/><description>M Goldstein</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 Sep 2017 00:00:00 +0000</lastBuildDate><image><url>https://tfjmp.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>M Goldstein</title><link>https://tfjmp.org/author/m-goldstein/</link></image><item><title>Practical Whole-System Provenance Capture</title><link>https://tfjmp.org/publication/2017-socc/</link><pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2017-socc/</guid><description/></item><item><title>FRAPpuccino: Fault-detection through Runtime Analysis of Provenance</title><link>https://tfjmp.org/publication/2017-hotcloud/</link><pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2017-hotcloud/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M Goldstein | Thomas Pasquier</title>
+    <link>https://tfjmp.org/author/m-goldstein/</link>
+      <atom:link href="https://tfjmp.org/author/m-goldstein/index.xml" rel="self" type="application/rss+xml" />
+    <description>M Goldstein</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tfjmp.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>M Goldstein</title>
+      <link>https://tfjmp.org/author/m-goldstein/</link>
+    </image>
+    
+    <item>
+      <title>Practical Whole-System Provenance Capture</title>
+      <link>https://tfjmp.org/publication/2017-socc/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2017-socc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FRAPpuccino: Fault-detection through Runtime Analysis of Provenance</title>
+      <link>https://tfjmp.org/publication/2017-hotcloud/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2017-hotcloud/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

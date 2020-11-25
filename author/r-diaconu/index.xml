@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>R Diaconu | Thomas Pasquier</title><link>https://tfjmp.org/author/r-diaconu/</link><atom:link href="https://tfjmp.org/author/r-diaconu/index.xml" rel="self" type="application/rss+xml"/><description>R Diaconu</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 12 Dec 2016 00:00:00 +0000</lastBuildDate><image><url>https://tfjmp.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>R Diaconu</title><link>https://tfjmp.org/author/r-diaconu/</link></image><item><title>Big Ideas paper: Policy-driven middleware for a legally-compliant Internet of Things</title><link>https://tfjmp.org/publication/2016-mw/</link><pubDate>Mon, 12 Dec 2016 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2016-mw/</guid><description>&lt;p>&lt;a href="https://www.cl.cam.ac.uk/ring/awards.html" target="_blank" rel="noopener">University of Cambridge Computer Laboratory Publication of the Year Award&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Diaconu | Thomas Pasquier</title>
+    <link>https://tfjmp.org/author/r-diaconu/</link>
+      <atom:link href="https://tfjmp.org/author/r-diaconu/index.xml" rel="self" type="application/rss+xml" />
+    <description>R Diaconu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 12 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tfjmp.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>R Diaconu</title>
+      <link>https://tfjmp.org/author/r-diaconu/</link>
+    </image>
+    
+    <item>
+      <title>Big Ideas paper: Policy-driven middleware for a legally-compliant Internet of Things</title>
+      <link>https://tfjmp.org/publication/2016-mw/</link>
+      <pubDate>Mon, 12 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2016-mw/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.cl.cam.ac.uk/ring/awards.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Cambridge Computer Laboratory Publication of the Year Award&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A Trisovic | Thomas Pasquier</title><link>https://tfjmp.org/author/a-trisovic/</link><atom:link href="https://tfjmp.org/author/a-trisovic/index.xml" rel="self" type="application/rss+xml"/><description>A Trisovic</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Sep 2017 00:00:00 +0000</lastBuildDate><image><url>https://tfjmp.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>A Trisovic</title><link>https://tfjmp.org/author/a-trisovic/</link></image><item><title>If these data could talk</title><link>https://tfjmp.org/publication/2017-scidata/</link><pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2017-scidata/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Trisovic | Thomas Pasquier</title>
+    <link>https://tfjmp.org/author/a-trisovic/</link>
+      <atom:link href="https://tfjmp.org/author/a-trisovic/index.xml" rel="self" type="application/rss+xml" />
+    <description>A Trisovic</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tfjmp.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>A Trisovic</title>
+      <link>https://tfjmp.org/author/a-trisovic/</link>
+    </image>
+    
+    <item>
+      <title>If these data could talk</title>
+      <link>https://tfjmp.org/publication/2017-scidata/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2017-scidata/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

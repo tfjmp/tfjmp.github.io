@@ -1,1 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>J Powles | Thomas Pasquier</title><link>https://tfjmp.org/author/j-powles/</link><atom:link href="https://tfjmp.org/author/j-powles/index.xml" rel="self" type="application/rss+xml"/><description>J Powles</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate><image><url>https://tfjmp.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>J Powles</title><link>https://tfjmp.org/author/j-powles/</link></image><item><title>Data provenance to audit compliance with privacy policy in the Internet of Things</title><link>https://tfjmp.org/publication/2018-ubi/</link><pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2018-ubi/</guid><description/></item><item><title>Big Ideas paper: Policy-driven middleware for a legally-compliant Internet of Things</title><link>https://tfjmp.org/publication/2016-mw/</link><pubDate>Mon, 12 Dec 2016 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2016-mw/</guid><description>&lt;p>&lt;a href="https://www.cl.cam.ac.uk/ring/awards.html" target="_blank" rel="noopener">University of Cambridge Computer Laboratory Publication of the Year Award&lt;/a>&lt;/p></description></item><item><title>Data Flow Management and Compliance in Cloud Computing</title><link>https://tfjmp.org/publication/2015-ccm/</link><pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2015-ccm/</guid><description/></item><item><title>Expressing and Enforcing Location Requirements in the Cloud using Information Flow Control</title><link>https://tfjmp.org/publication/2015-claw/</link><pubDate>Sun, 08 Mar 2015 00:00:00 +0000</pubDate><guid>https://tfjmp.org/publication/2015-claw/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J Powles | Thomas Pasquier</title>
+    <link>https://tfjmp.org/author/j-powles/</link>
+      <atom:link href="https://tfjmp.org/author/j-powles/index.xml" rel="self" type="application/rss+xml" />
+    <description>J Powles</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tfjmp.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>J Powles</title>
+      <link>https://tfjmp.org/author/j-powles/</link>
+    </image>
+    
+    <item>
+      <title>Data provenance to audit compliance with privacy policy in the Internet of Things</title>
+      <link>https://tfjmp.org/publication/2018-ubi/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2018-ubi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big Ideas paper: Policy-driven middleware for a legally-compliant Internet of Things</title>
+      <link>https://tfjmp.org/publication/2016-mw/</link>
+      <pubDate>Mon, 12 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2016-mw/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.cl.cam.ac.uk/ring/awards.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Cambridge Computer Laboratory Publication of the Year Award&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Flow Management and Compliance in Cloud Computing</title>
+      <link>https://tfjmp.org/publication/2015-ccm/</link>
+      <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2015-ccm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expressing and Enforcing Location Requirements in the Cloud using Information Flow Control</title>
+      <link>https://tfjmp.org/publication/2015-claw/</link>
+      <pubDate>Sun, 08 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2015-claw/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
