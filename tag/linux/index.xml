@@ -17,7 +17,8 @@
       <link>https://tfjmp.org/project/camflow/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
       <guid>https://tfjmp.org/project/camflow/</guid>
-      <description></description>
+      <description>&lt;p&gt;CamFlow stands for Cambridge information Flow architecture, the Cam is also the river that flows through Cambridge, UK. CamFlow is a Linux Security Module (LSM) designed to capture data provenance for the purpose of system audit. The whole-system provenance capture mechanism is highly configurable, and can fit the needs of many different type of applications. CamFlow can stack with existing security modules such as SELinux.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

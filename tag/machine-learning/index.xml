@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine-Learning | Thomas Pasquier</title>
+    <link>https://tfjmp.org/tag/machine-learning/</link>
+      <atom:link href="https://tfjmp.org/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Machine-Learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tfjmp.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Machine-Learning</title>
+      <link>https://tfjmp.org/tag/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Tuneful</title>
+      <link>https://tfjmp.org/project/tuneful/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/project/tuneful/</guid>
+      <description>&lt;p&gt;Tuneful is an extension for Spark which optimizes workload configurations starting from a zero-knowledge setting. The more workloads a cluster executes, the better it becomes at executing them. In order to achieve this, we leverage Multi Task Gaussian Process, Similarity Analysis and Significance Analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
