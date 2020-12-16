@@ -9,7 +9,62 @@
   
   <url>
     <loc>https://tfjmp.org/</loc>
-    <lastmod>2020-12-08T08:04:44+00:00</lastmod>
+    <lastmod>2020-12-13T21:43:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tfjmp.org/publication-type/1/</loc>
+    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tfjmp.org/publication_types/</loc>
+    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tfjmp.org/publication/2021-usenixsec/</loc>
+    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
   </url>
   
   <url>
@@ -28,17 +83,12 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/publication-type/1/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/a-fekry/</loc>
-    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tfjmp.org/author/a-rice/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -48,22 +98,7 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/authors/</loc>
-    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tfjmp.org/author/l-carata/</loc>
-    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tfjmp.org/publication_types/</loc>
-    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tfjmp.org/author/t-pasquier/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -93,52 +128,12 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/c-haifeng/</loc>
-    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tfjmp.org/author/d-li/</loc>
-    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tfjmp.org/author/j-mickens/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/j-rhee/</loc>
-    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tfjmp.org/author/m-seltzer/</loc>
-    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tfjmp.org/publication/2021-usenixsec/</loc>
-    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tfjmp.org/author/x-han/</loc>
-    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tfjmp.org/author/x-yu/</loc>
-    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tfjmp.org/author/a-gehani/</loc>
-    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tfjmp.org/author/a-hopper/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -153,7 +148,7 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/a-bates/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -168,7 +163,7 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/m-k-lau/</loc>
+    <loc></loc>
     <lastmod>2020-11-25T05:54:55+00:00</lastmod>
   </url>
   
@@ -178,17 +173,17 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/a-vranaki/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/d-eyers/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/d-okeeffe/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -208,17 +203,17 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/h-irshad/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/j-cheney/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/p-bhatotia/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -228,7 +223,7 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/s-c-chan/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -243,12 +238,12 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/andrew-rice/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/andy-hopper/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -258,7 +253,7 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/j-bacon/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -288,7 +283,7 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/o-hermant/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -298,7 +293,7 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/t-moyer/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -318,27 +313,27 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/a-ellison/</loc>
+    <loc></loc>
     <lastmod>2020-11-25T05:54:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/b-lerner/</loc>
+    <loc></loc>
     <lastmod>2020-11-25T05:54:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/e-boose/</loc>
+    <loc></loc>
     <lastmod>2020-11-25T05:54:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/e-fong/</loc>
+    <loc></loc>
     <lastmod>2020-11-25T05:54:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/m-crosas/</loc>
+    <loc></loc>
     <lastmod>2020-11-25T05:54:55+00:00</lastmod>
   </url>
   
@@ -353,12 +348,12 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/j-powles/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/j-singh/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -403,7 +398,7 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/m-goldstein/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -433,22 +428,22 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/a-ellisson/</loc>
+    <loc></loc>
     <lastmod>2020-11-25T05:54:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/a-trisovic/</loc>
+    <loc></loc>
     <lastmod>2020-11-25T05:54:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/b-couturier/</loc>
+    <loc></loc>
     <lastmod>2020-11-25T05:54:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/c-jones/</loc>
+    <loc></loc>
     <lastmod>2020-11-25T05:54:55+00:00</lastmod>
   </url>
   
@@ -458,7 +453,7 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/v-gibson/</loc>
+    <loc></loc>
     <lastmod>2020-11-25T05:54:55+00:00</lastmod>
   </url>
   
@@ -468,7 +463,7 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/t-ranjan/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -488,7 +483,7 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/r-diaconu/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -498,7 +493,7 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/h-ko/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -568,17 +563,17 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/a-madhavapeddy/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/c-millard/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/j-crowcroft/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -588,12 +583,12 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/w-kuan-hon/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/b-shand/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -613,7 +608,7 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/i-papagiannis/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -623,7 +618,7 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/p-pietzuch/</loc>
+    <loc></loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
   
@@ -638,6 +633,11 @@
   </url>
   
   <url>
+    <loc></loc>
+    <lastmod>2020-12-13T21:43:23+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tfjmp.org/categories/</loc>
   </url>
   
@@ -647,8 +647,8 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/author/thomas-pasquier/</loc>
-    <lastmod>2020-11-24T20:50:37+00:00</lastmod>
+    <loc></loc>
+    <lastmod>2020-12-11T01:15:31+00:00</lastmod>
   </url>
   
 </urlset>
