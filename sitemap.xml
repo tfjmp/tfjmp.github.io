@@ -3,83 +3,103 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tfjmp.org/talk/2020-china-uk-australia-ai/</loc>
-    <lastmod>2020-12-08T08:04:44+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tfjmp.org/</loc>
-    <lastmod>2020-12-13T21:43:23+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tfjmp.org/publication-type/1/</loc>
-    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
   </url>
   
   <url>
     <loc></loc>
-    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
   </url>
   
   <url>
     <loc></loc>
-    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
   </url>
   
   <url>
     <loc></loc>
-    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
   </url>
   
   <url>
     <loc></loc>
-    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
   </url>
   
   <url>
     <loc></loc>
-    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tfjmp.org/publication_types/</loc>
-    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tfjmp.org/publication/2021-usenixsec/</loc>
-    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
   </url>
   
   <url>
     <loc></loc>
-    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tfjmp.org/</loc>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
   </url>
   
   <url>
     <loc></loc>
-    <lastmod>2020-11-28T14:13:37+00:00</lastmod>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
   </url>
   
   <url>
     <loc></loc>
-    <lastmod>2020-11-25T05:54:55+00:00</lastmod>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/2020-toshiba/</loc>
-    <lastmod>2020-11-26T12:11:07+00:00</lastmod>
+    <loc></loc>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/2020-ndsi/</loc>
-    <lastmod>2020-11-25T13:26:10+00:00</lastmod>
+    <loc></loc>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/2020-azure/</loc>
-    <lastmod>2020-11-25T13:26:10+00:00</lastmod>
+    <loc>https://tfjmp.org/publication/2020-cloudcom/</loc>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2021-01-06T09:00:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tfjmp.org/talk/building-a-provenance-based-intrusion-detection-system/</loc>
+    <lastmod>2020-12-08T07:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tfjmp.org/talk/building-a-provenance-based-intrusion-detection-system/</loc>
+    <lastmod>2020-11-26T11:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tfjmp.org/talk/provenance-based-intrusion-detection/</loc>
+    <lastmod>2020-11-12T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tfjmp.org/talk/to-tune-or-not-to-tune/</loc>
+    <lastmod>2020-11-05T20:15:00+00:00</lastmod>
   </url>
   
   <url>
@@ -193,13 +213,13 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/2020-winter/</loc>
-    <lastmod>2020-11-25T13:26:10+00:00</lastmod>
+    <loc>https://tfjmp.org/talk/provenance-based-intrusion-detection/</loc>
+    <lastmod>2020-01-15T15:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/2019-alan-turing/</loc>
-    <lastmod>2020-11-25T13:26:10+00:00</lastmod>
+    <loc>https://tfjmp.org/talk/building-a-provenance-based-ids-and-the-questions-we-ask-ourselves/</loc>
+    <lastmod>2019-11-11T09:45:00+00:00</lastmod>
   </url>
   
   <url>
@@ -233,8 +253,8 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/2019-hp/</loc>
-    <lastmod>2020-11-25T13:26:10+00:00</lastmod>
+    <loc>https://tfjmp.org/talk/towards-provenance-based-intrusion-detection/</loc>
+    <lastmod>2019-06-06T10:30:00+00:00</lastmod>
   </url>
   
   <url>
@@ -263,23 +283,23 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/2019-loughborough/</loc>
-    <lastmod>2020-11-25T13:26:10+00:00</lastmod>
+    <loc>https://tfjmp.org/talk/towards-provenance-based-intrusion-detection/</loc>
+    <lastmod>2019-03-11T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/2019-rh/</loc>
-    <lastmod>2020-11-25T13:26:10+00:00</lastmod>
+    <loc>https://tfjmp.org/talk/building-a-provenance-based-intrusion-detection-system/</loc>
+    <lastmod>2019-01-22T15:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/2018-bristol/</loc>
-    <lastmod>2020-11-24T20:10:05+00:00</lastmod>
+    <loc>https://tfjmp.org/talk/towards-a-provenance-based-intrusion-detection-system/</loc>
+    <lastmod>2018-12-05T12:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/2018-css/</loc>
-    <lastmod>2020-11-24T20:10:05+00:00</lastmod>
+    <loc>https://tfjmp.org/talk/runtime-analysis-of-whole-system-provenance/</loc>
+    <lastmod>2018-10-18T11:30:00+00:00</lastmod>
   </url>
   
   <url>
@@ -298,8 +318,8 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/2018-tapp/</loc>
-    <lastmod>2020-11-25T13:26:10+00:00</lastmod>
+    <loc>https://tfjmp.org/talk/provenance-based-intrusion-detection-opportunities-and-challenges/</loc>
+    <lastmod>2018-07-11T12:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -308,8 +328,8 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/2018-cambridge/</loc>
-    <lastmod>2020-11-24T20:10:05+00:00</lastmod>
+    <loc>https://tfjmp.org/talk/building-a-provenance-capture-mechanism/</loc>
+    <lastmod>2018-06-06T15:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -358,8 +378,8 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/2018-edinburgh/</loc>
-    <lastmod>2020-11-25T13:26:10+00:00</lastmod>
+    <loc>https://tfjmp.org/talk/towards-practical-whole-system-provenance/</loc>
+    <lastmod>2018-01-08T13:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -393,8 +413,8 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/2017-socc/</loc>
-    <lastmod>2020-11-25T13:26:10+00:00</lastmod>
+    <loc>https://tfjmp.org/talk/practical-whole-system-provenance-capture/</loc>
+    <lastmod>2017-09-25T10:20:00+00:00</lastmod>
   </url>
   
   <url>
@@ -473,8 +493,8 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/talk/</loc>
-    <lastmod>2020-11-24T20:10:05+00:00</lastmod>
+    <loc>https://tfjmp.org/event/</loc>
+    <lastmod>2020-12-28T23:35:36+00:00</lastmod>
   </url>
   
   <url>

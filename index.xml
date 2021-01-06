@@ -5,7 +5,7 @@
     <link>https://tfjmp.org/</link>
       <atom:link href="https://tfjmp.org/index.xml" rel="self" type="application/rss+xml" />
     <description>Thomas Pasquier</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 08 Dec 2020 07:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tfjmp.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Thomas Pasquier</title>
@@ -13,42 +13,50 @@
     </image>
     
     <item>
-      <title>Building a provenance-based intrusion detection system</title>
-      <link>https://tfjmp.org/talk/2020-china-uk-australia-ai/</link>
-      <pubDate>Tue, 08 Dec 2020 07:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2020-china-uk-australia-ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>SIGL: Securing Software Installations Through Deep Graph Learning</title>
       <link>https://tfjmp.org/publication/2021-usenixsec/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://tfjmp.org/publication/2021-usenixsec/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Demonstrating the Practicality of Unikernels to Build a Serverless Platform at the Edge</title>
+      <link>https://tfjmp.org/publication/2020-cloudcom/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2020-cloudcom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Building a provenance-based intrusion detection system</title>
-      <link>https://tfjmp.org/talk/2020-toshiba/</link>
+      <link>https://tfjmp.org/talk/building-a-provenance-based-intrusion-detection-system/</link>
+      <pubDate>Tue, 08 Dec 2020 07:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/talk/building-a-provenance-based-intrusion-detection-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a provenance-based intrusion detection system</title>
+      <link>https://tfjmp.org/talk/building-a-provenance-based-intrusion-detection-system/</link>
       <pubDate>Thu, 26 Nov 2020 11:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2020-toshiba/</guid>
+      <guid>https://tfjmp.org/talk/building-a-provenance-based-intrusion-detection-system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Provenance-based intrusion detection</title>
-      <link>https://tfjmp.org/talk/2020-ndsi/</link>
+      <link>https://tfjmp.org/talk/provenance-based-intrusion-detection/</link>
       <pubDate>Thu, 12 Nov 2020 10:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2020-ndsi/</guid>
+      <guid>https://tfjmp.org/talk/provenance-based-intrusion-detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>To Tune or not To Tune</title>
-      <link>https://tfjmp.org/talk/2020-azure/</link>
+      <link>https://tfjmp.org/talk/to-tune-or-not-to-tune/</link>
       <pubDate>Thu, 05 Nov 2020 20:15:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2020-azure/</guid>
+      <guid>https://tfjmp.org/talk/to-tune-or-not-to-tune/</guid>
       <description></description>
     </item>
     
@@ -117,17 +125,17 @@
     
     <item>
       <title>Provenance-based Intrusion Detection</title>
-      <link>https://tfjmp.org/talk/2020-winter/</link>
+      <link>https://tfjmp.org/talk/provenance-based-intrusion-detection/</link>
       <pubDate>Wed, 15 Jan 2020 15:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2020-winter/</guid>
+      <guid>https://tfjmp.org/talk/provenance-based-intrusion-detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Building a provenance-based IDS and the questions we ask ourselves</title>
-      <link>https://tfjmp.org/talk/2019-alan-turing/</link>
+      <link>https://tfjmp.org/talk/building-a-provenance-based-ids-and-the-questions-we-ask-ourselves/</link>
       <pubDate>Mon, 11 Nov 2019 09:45:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2019-alan-turing/</guid>
+      <guid>https://tfjmp.org/talk/building-a-provenance-based-ids-and-the-questions-we-ask-ourselves/</guid>
       <description></description>
     </item>
     
@@ -149,9 +157,9 @@
     
     <item>
       <title>Towards provenance-based intrusion detection</title>
-      <link>https://tfjmp.org/talk/2019-hp/</link>
+      <link>https://tfjmp.org/talk/towards-provenance-based-intrusion-detection/</link>
       <pubDate>Thu, 06 Jun 2019 10:30:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2019-hp/</guid>
+      <guid>https://tfjmp.org/talk/towards-provenance-based-intrusion-detection/</guid>
       <description></description>
     </item>
     
@@ -173,33 +181,33 @@
     
     <item>
       <title>Towards provenance-based intrusion detection</title>
-      <link>https://tfjmp.org/talk/2019-loughborough/</link>
+      <link>https://tfjmp.org/talk/towards-provenance-based-intrusion-detection/</link>
       <pubDate>Mon, 11 Mar 2019 10:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2019-loughborough/</guid>
+      <guid>https://tfjmp.org/talk/towards-provenance-based-intrusion-detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Building a provenance-based intrusion detection system</title>
-      <link>https://tfjmp.org/talk/2019-rh/</link>
+      <link>https://tfjmp.org/talk/building-a-provenance-based-intrusion-detection-system/</link>
       <pubDate>Tue, 22 Jan 2019 15:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2019-rh/</guid>
+      <guid>https://tfjmp.org/talk/building-a-provenance-based-intrusion-detection-system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards a provenance-based intrusion detection system</title>
-      <link>https://tfjmp.org/talk/2018-bristol/</link>
+      <link>https://tfjmp.org/talk/towards-a-provenance-based-intrusion-detection-system/</link>
       <pubDate>Wed, 05 Dec 2018 12:30:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2018-bristol/</guid>
+      <guid>https://tfjmp.org/talk/towards-a-provenance-based-intrusion-detection-system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Runtime Analysis of Whole-System Provenance</title>
-      <link>https://tfjmp.org/talk/2018-css/</link>
+      <link>https://tfjmp.org/talk/runtime-analysis-of-whole-system-provenance/</link>
       <pubDate>Thu, 18 Oct 2018 11:30:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2018-css/</guid>
+      <guid>https://tfjmp.org/talk/runtime-analysis-of-whole-system-provenance/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/6VBVwH88o4Y&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -219,9 +227,9 @@
     
     <item>
       <title>Provenance-based Intrusion Detection: Opportunities and Challenges</title>
-      <link>https://tfjmp.org/talk/2018-tapp/</link>
+      <link>https://tfjmp.org/talk/provenance-based-intrusion-detection-opportunities-and-challenges/</link>
       <pubDate>Wed, 11 Jul 2018 12:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2018-tapp/</guid>
+      <guid>https://tfjmp.org/talk/provenance-based-intrusion-detection-opportunities-and-challenges/</guid>
       <description></description>
     </item>
     
@@ -235,9 +243,9 @@
     
     <item>
       <title>Building a provenance capture mechanism</title>
-      <link>https://tfjmp.org/talk/2018-cambridge/</link>
+      <link>https://tfjmp.org/talk/building-a-provenance-capture-mechanism/</link>
       <pubDate>Wed, 06 Jun 2018 15:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2018-cambridge/</guid>
+      <guid>https://tfjmp.org/talk/building-a-provenance-capture-mechanism/</guid>
       <description></description>
     </item>
     
@@ -259,9 +267,9 @@
     
     <item>
       <title>Towards practical whole-system provenance</title>
-      <link>https://tfjmp.org/talk/2018-edinburgh/</link>
+      <link>https://tfjmp.org/talk/towards-practical-whole-system-provenance/</link>
       <pubDate>Mon, 08 Jan 2018 13:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2018-edinburgh/</guid>
+      <guid>https://tfjmp.org/talk/towards-practical-whole-system-provenance/</guid>
       <description></description>
     </item>
     
@@ -276,9 +284,9 @@
     
     <item>
       <title>Practical Whole-System Provenance Capture</title>
-      <link>https://tfjmp.org/talk/2017-socc/</link>
+      <link>https://tfjmp.org/talk/practical-whole-system-provenance-capture/</link>
       <pubDate>Mon, 25 Sep 2017 10:20:00 +0000</pubDate>
-      <guid>https://tfjmp.org/talk/2017-socc/</guid>
+      <guid>https://tfjmp.org/talk/practical-whole-system-provenance-capture/</guid>
       <description></description>
     </item>
     

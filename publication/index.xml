@@ -15,8 +15,16 @@
     <item>
       <title>SIGL: Securing Software Installations Through Deep Graph Learning</title>
       <link>https://tfjmp.org/publication/2021-usenixsec/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://tfjmp.org/publication/2021-usenixsec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demonstrating the Practicality of Unikernels to Build a Serverless Platform at the Edge</title>
+      <link>https://tfjmp.org/publication/2020-cloudcom/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2020-cloudcom/</guid>
       <description></description>
     </item>
     
