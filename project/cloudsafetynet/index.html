@@ -75,7 +75,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
 
     
     
@@ -86,14 +86,14 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
         
       
     
 
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
     
 
     
@@ -231,8 +231,8 @@
   
     
       
-      
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
     
   
 
@@ -241,7 +241,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.3ed8ae6adb2995d2aa01a7cd8de32f2a.css">
+  <link rel="stylesheet" href="/css/wowchemy.dfa4fe6b75a871f1f332bf636ce167bc.css">
 
   
 
@@ -266,7 +266,10 @@
 
   
 
+  
   <link rel="manifest" href="/index.webmanifest">
+  
+
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
@@ -375,11 +378,11 @@
   
   
   
-  <script src="/js/wowchemy-init.min.df91b69a1478cc5b32287044fbdb4d7f.js"></script>
+  <script src="/js/wowchemy-init.min.7b836ca971d8f958bd0918f15b370f66.js"></script>
 
   
 
-<aside class="search-results" id="search">
+<aside class="search-modal" id="search">
   <div class="container">
     <section class="search-header">
 
@@ -388,14 +391,15 @@
           <h1>Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
         </div>
       </div>
 
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
         
       </div>
 
@@ -1294,9 +1298,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/2016-sacmat/" >Data-Centric Access Control for Cloud Computing</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/2016-sacmat/"  class="summary-link">
@@ -1340,23 +1344,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publications/2016-sacmat.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publications/2016-sacmat.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/2016-sacmat/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cloudsafetynet/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cloudsafetynet/">
     Project
   </a>
   
@@ -1369,7 +1373,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/2914642.2914662" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/2914642.2914662" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -1410,9 +1414,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/2016-ic2e/" >Information Flow Audit for PaaS clouds</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/2016-ic2e/"  class="summary-link">
@@ -1456,23 +1460,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publications/2016-ic2e.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publications/2016-ic2e.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/2016-ic2e/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cloudsafetynet/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cloudsafetynet/">
     Project
   </a>
   
@@ -1485,7 +1489,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/IC2E.2016.19" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/IC2E.2016.19" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -1526,9 +1530,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/2015-cloudcom/" >Clouds of Things Need Information Flow Control with Hardware Roots of Trust</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/2015-cloudcom/"  class="summary-link">
@@ -1571,23 +1575,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publications/2015-cloudcom.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publications/2015-cloudcom.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/2015-cloudcom/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cloudsafetynet/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cloudsafetynet/">
     Project
   </a>
   
@@ -1600,7 +1604,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/CloudCom.2015.41" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/CloudCom.2015.41" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -1641,9 +1645,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/2015-tcc/" >CamFlow: Managed Data-Sharing for Cloud Services</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/2015-tcc/"  class="summary-link">
@@ -1687,23 +1691,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publications/2015-tcc.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publications/2015-tcc.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/2015-tcc/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cloudsafetynet/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cloudsafetynet/">
     Project
   </a>
   
@@ -1716,7 +1720,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/TCC.2015.2489211" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/TCC.2015.2489211" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -1757,9 +1761,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/2015-cloud/" >Managing Big Data with Information Flow Control</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/2015-cloud/"  class="summary-link">
@@ -1803,23 +1807,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publications/2015-cloud.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publications/2015-cloud.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/2015-cloud/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cloudsafetynet/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cloudsafetynet/">
     Project
   </a>
   
@@ -1832,7 +1836,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/CLOUD.2015.76" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/CLOUD.2015.76" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -1873,9 +1877,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/2015-riot/" >Securing Tags to Control Information Flows within the Internet of Things</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/2015-riot/"  class="summary-link">
@@ -1918,23 +1922,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publications/2015-riot.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publications/2015-riot.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/2015-riot/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cloudsafetynet/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cloudsafetynet/">
     Project
   </a>
   
@@ -1947,7 +1951,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/RIOT.2015.7104903" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/RIOT.2015.7104903" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -1988,9 +1992,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/2015-ic2e/" >Integrating Middleware with Information Flow Control</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/2015-ic2e/"  class="summary-link">
@@ -2034,23 +2038,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publications/2015-ic2e.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publications/2015-ic2e.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/2015-ic2e/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cloudsafetynet/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cloudsafetynet/">
     Project
   </a>
   
@@ -2063,7 +2067,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/IC2E.2015.13" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/IC2E.2015.13" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -2104,9 +2108,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/2015-fpaas/" >Information Flow Control for Strong Protection with Flexible Sharing in PaaS</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/2015-fpaas/"  class="summary-link">
@@ -2149,23 +2153,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publications/2015-fpaas.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publications/2015-fpaas.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/2015-fpaas/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cloudsafetynet/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cloudsafetynet/">
     Project
   </a>
   
@@ -2178,7 +2182,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/IC2E.2015.64" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/IC2E.2015.64" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -2219,9 +2223,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/2014-cloudcom/" >FlowK: Information Flow Control for the Cloud</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/2014-cloudcom/"  class="summary-link">
@@ -2264,23 +2268,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publications/2014-cloudcom.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publications/2014-cloudcom.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/2014-cloudcom/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cloudsafetynet/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cloudsafetynet/">
     Project
   </a>
   
@@ -2293,7 +2297,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/CloudCom.2014.11" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/CloudCom.2014.11" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -2334,9 +2338,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/2014-modularity/" >FlowR: Aspect Oriented Programming for Information Flow Control in Ruby</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/2014-modularity/"  class="summary-link">
@@ -2379,23 +2383,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publications/2014-modularity.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publications/2014-modularity.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/2014-modularity/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cloudsafetynet/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cloudsafetynet/">
     Project
   </a>
   
@@ -2408,7 +2412,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/2577080.2577090" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/2577080.2577090" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -2449,9 +2453,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/2014-tnsm/" >Information Flow Control for Secure Cloud Computing</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/2014-tnsm/"  class="summary-link">
@@ -2497,23 +2501,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publications/2014-tnsm.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publications/2014-tnsm.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/2014-tnsm/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cloudsafetynet/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cloudsafetynet/">
     Project
   </a>
   
@@ -2526,7 +2530,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/TNSM.2013.122313.130423" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/TNSM.2013.122313.130423" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -2723,7 +2727,7 @@
       
     
     
-    <script src="/js/wowchemy.min.54ff88c8c87ae58bd43cc3ffa77c2c4b.js"></script>
+    <script src="/js/wowchemy.min.fcc8d435fe4f5be7ec14875ba78d690a.js"></script>
 
     
 
