@@ -49,7 +49,7 @@
   
   <url>
     <loc>https://tfjmp.org/</loc>
-    <lastmod>2021-01-20T07:31:19+00:00</lastmod>
+    <lastmod>2021-01-23T19:43:06+00:00</lastmod>
   </url>
   
   <url>
@@ -60,6 +60,12 @@
   <url>
     <loc></loc>
     <lastmod>2021-01-06T09:00:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tfjmp.org/event/</loc>
+    <lastmod>2021-01-14T17:09:39+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -498,11 +504,6 @@
   </url>
   
   <url>
-    <loc>https://tfjmp.org/event/</loc>
-    <lastmod>2020-12-28T23:35:36+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tfjmp.org/publication/2016-mw/</loc>
     <lastmod>2020-11-28T14:13:37+00:00</lastmod>
   </url>
@@ -659,7 +660,7 @@
   
   <url>
     <loc></loc>
-    <lastmod>2020-12-13T21:43:23+00:00</lastmod>
+    <lastmod>2021-01-23T19:43:06+00:00</lastmod>
   </url>
   
   <url>
@@ -668,7 +669,7 @@
   
   <url>
     <loc>https://tfjmp.org/publication/</loc>
-    <lastmod>2020-11-24T20:23:19+00:00</lastmod>
+    <lastmod>2021-01-23T19:43:06+00:00</lastmod>
   </url>
   
   <url>
