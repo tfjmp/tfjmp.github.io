@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Provenance is the representation of a system execution as a directed acyclic graph. Those graphs, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, I will give an overview of my work on the development of a provenance-based intrusion detection system. I will discuss the development of the stack from the kernel-level capture mechanism to the algorithm used to perform intrusion detection. This talk is based on papers published at ACM CCS, NDSS and Usenix Security." />
+  <meta name="description" content="Whole-system provenance is the record of flows of information between kernel objects (e.g., files, task, sockets etc.). This information is represented as a directed acyclic graph that can be analysed to extract information about the execution of the system. Building on the DARPA transparent computing programme a number of research groups have explored means to develop provenance-based intrusion detection systems. In this talk, we will discuss how provenance can be captured and analysed to achieve such an objective." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://tfjmp.org/talk/provenance-based-intrusion-detection/" />
@@ -75,6 +75,13 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
 
+    
+    
+    
+    
+      
+      
+    
     
     
 
@@ -297,19 +304,18 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
     <meta property="twitter:site" content="@tfjmp" />
     <meta property="twitter:creator" content="@tfjmp" />
   
   <meta property="og:site_name" content="Thomas Pasquier" />
   <meta property="og:url" content="https://tfjmp.org/talk/provenance-based-intrusion-detection/" />
-  <meta property="og:title" content="Provenance-based intrusion detection | Thomas Pasquier" />
-  <meta property="og:description" content="Provenance is the representation of a system execution as a directed acyclic graph. Those graphs, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, I will give an overview of my work on the development of a provenance-based intrusion detection system. I will discuss the development of the stack from the kernel-level capture mechanism to the algorithm used to perform intrusion detection. This talk is based on papers published at ACM CCS, NDSS and Usenix Security." /><meta property="og:image" content="https://tfjmp.org/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="https://tfjmp.org/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:title" content="Provenance-based Intrusion Detection | Thomas Pasquier" />
+  <meta property="og:description" content="Whole-system provenance is the record of flows of information between kernel objects (e.g., files, task, sockets etc.). This information is represented as a directed acyclic graph that can be analysed to extract information about the execution of the system. Building on the DARPA transparent computing programme a number of research groups have explored means to develop provenance-based intrusion detection systems. In this talk, we will discuss how provenance can be captured and analysed to achieve such an objective." /><meta property="og:image" content="https://tfjmp.org/talk/provenance-based-intrusion-detection/featured.png" />
+    <meta property="twitter:image" content="https://tfjmp.org/talk/provenance-based-intrusion-detection/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -317,7 +323,7 @@
         content="2020-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2020-11-12T10:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-01-15T15:00:00&#43;00:00">
   
 
   
@@ -338,15 +344,19 @@
     "@type": "WebPage",
     "@id": "https://tfjmp.org/talk/provenance-based-intrusion-detection/"
   },
-  "name": "Provenance-based intrusion detection",
+  "name": "Provenance-based Intrusion Detection",
   
   "location": {
     "@type": "Place",
-    "name": "virtually"
+    "name": "Newcastle University"
   },
   
   
-  "startDate": "2020-11-12T10:00:00Z",
+  "image": [
+    "https://tfjmp.org/talk/provenance-based-intrusion-detection/featured.png"
+  ],
+  
+  "startDate": "2020-01-15T15:00:00Z",
   
   
   "performer": {
@@ -354,7 +364,7 @@
     "name": "Thomas Pasquier"
   },
   
-  "description": "Provenance is the representation of a system execution as a directed acyclic graph. Those graphs, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, I will give an overview of my work on the development of a provenance-based intrusion detection system. I will discuss the development of the stack from the kernel-level capture mechanism to the algorithm used to perform intrusion detection. This talk is based on papers published at ACM CCS, NDSS and Usenix Security."
+  "description": "Whole-system provenance is the record of flows of information between kernel objects (e.g., files, task, sockets etc.). This information is represented as a directed acyclic graph that can be analysed to extract information about the execution of the system. Building on the DARPA transparent computing programme a number of research groups have explored means to develop provenance-based intrusion detection systems. In this talk, we will discuss how provenance can be captured and analysed to achieve such an objective."
 }
 </script>
 
@@ -368,11 +378,11 @@
 
 
 
-  <title>Provenance-based intrusion detection | Thomas Pasquier</title>
+  <title>Provenance-based Intrusion Detection | Thomas Pasquier</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="f5a9c1f8e2b279713bc9125dab5ceea2" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="1cdfc4445a5565f8169418eb4f044866" >
 
   
   
@@ -832,18 +842,24 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
-  
+
+
 <div class="article-container pt-3">
-  <h1>Provenance-based intrusion detection</h1>
+  <h1>Provenance-based Intrusion Detection</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -869,7 +885,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -903,7 +919,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="/slides/2020-ndsi.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/slides/2020-winter.pdf" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -916,7 +932,14 @@
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 392px; max-height: 129px;">
+  <div style="position: relative">
+    <img src="/talk/provenance-based-intrusion-detection/featured.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
@@ -925,7 +948,7 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract">Provenance is the representation of a system execution as a directed acyclic graph. Those graphs, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, I will give an overview of my work on the development of a provenance-based intrusion detection system. I will discuss the development of the stack from the kernel-level capture mechanism to the algorithm used to perform intrusion detection. This talk is based on papers published at ACM CCS, NDSS and Usenix Security.</p>
+      <p class="pub-abstract">Whole-system provenance is the record of flows of information between kernel objects (e.g., files, task, sockets etc.). This information is represented as a directed acyclic graph that can be analysed to extract information about the execution of the system. Building on the DARPA transparent computing programme a number of research groups have explored means to develop provenance-based intrusion detection systems. In this talk, we will discuss how provenance can be captured and analysed to achieve such an objective.</p>
     
 
     <div class="row">
@@ -934,7 +957,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9">
-            Nov 12, 2020 10:00 AM
+            Jan 15, 2020 3:00 PM
           </div>
         </div>
       </div>
@@ -949,9 +972,9 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Event</div>
           <div class="col-12 col-md-9">
-            
-            UK-Israel Network and Data Infrastructure Security Online Workshops
-            
+            <a href="https://sites.google.com/view/phd-cyber-winterschool2020" target="_blank" rel="noopener">
+            UK PHD WINTER SCHOOL ON CYBER SECURITY
+            </a>
           </div>
         </div>
       </div>
@@ -966,7 +989,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">virtually</div>
+          <div class="col-12 col-md-9">Newcastle University</div>
           
         </div>
       </div>
@@ -1001,7 +1024,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://tfjmp.org/talk/provenance-based-intrusion-detection/&amp;text=Provenance-based%20intrusion%20detection" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://tfjmp.org/talk/provenance-based-intrusion-detection/&amp;text=Provenance-based%20Intrusion%20Detection" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1014,7 +1037,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://tfjmp.org/talk/provenance-based-intrusion-detection/&amp;t=Provenance-based%20intrusion%20detection" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://tfjmp.org/talk/provenance-based-intrusion-detection/&amp;t=Provenance-based%20Intrusion%20Detection" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1027,7 +1050,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Provenance-based%20intrusion%20detection&amp;body=https://tfjmp.org/talk/provenance-based-intrusion-detection/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Provenance-based%20Intrusion%20Detection&amp;body=https://tfjmp.org/talk/provenance-based-intrusion-detection/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1040,7 +1063,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://tfjmp.org/talk/provenance-based-intrusion-detection/&amp;title=Provenance-based%20intrusion%20detection" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://tfjmp.org/talk/provenance-based-intrusion-detection/&amp;title=Provenance-based%20Intrusion%20Detection" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1053,7 +1076,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Provenance-based%20intrusion%20detection%20https://tfjmp.org/talk/provenance-based-intrusion-detection/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Provenance-based%20Intrusion%20Detection%20https://tfjmp.org/talk/provenance-based-intrusion-detection/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1066,7 +1089,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://tfjmp.org/talk/provenance-based-intrusion-detection/&amp;title=Provenance-based%20intrusion%20detection" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://tfjmp.org/talk/provenance-based-intrusion-detection/&amp;title=Provenance-based%20Intrusion%20Detection" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
