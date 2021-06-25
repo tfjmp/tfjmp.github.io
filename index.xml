@@ -29,14 +29,6 @@
     </item>
     
     <item>
-      <title>Demonstrating the Practicality of Unikernels to Build a Serverless Platform at the Edge</title>
-      <link>https://tfjmp.org/publication/2020-cloudcom/</link>
-      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/publication/2020-cloudcom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Building a provenance-based intrusion detection system</title>
       <link>https://tfjmp.org/talk/building-a-provenance-based-intrusion-detection-system/</link>
       <pubDate>Tue, 08 Dec 2020 07:00:00 +0000</pubDate>
@@ -136,6 +128,14 @@
       <link>https://tfjmp.org/talk/provenance-based-intrusion-detection/</link>
       <pubDate>Wed, 15 Jan 2020 15:00:00 +0000</pubDate>
       <guid>https://tfjmp.org/talk/provenance-based-intrusion-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demonstrating the Practicality of Unikernels to Build a Serverless Platform at the Edge</title>
+      <link>https://tfjmp.org/publication/2020-cloudcom/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2020-cloudcom/</guid>
       <description></description>
     </item>
     
