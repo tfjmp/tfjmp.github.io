@@ -292,7 +292,8 @@ collections:
       required: false
       widget: string
     - default: Smart
-      label: Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+      label: Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight,
+        Left, Right, BottomLeft, Bottom, BottomRight.
       name: focal_point
       required: false
       widget: string
@@ -407,7 +408,8 @@ collections:
       required: false
       widget: string
     - default: Smart
-      label: Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+      label: Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight,
+        Left, Right, BottomLeft, Bottom, BottomRight.
       name: focal_point
       required: false
       widget: string
@@ -538,7 +540,8 @@ collections:
       required: false
       widget: string
     - default: Smart
-      label: Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+      label: Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight,
+        Left, Right, BottomLeft, Bottom, BottomRight.
       name: focal_point
       required: false
       widget: string
@@ -665,7 +668,8 @@ collections:
       required: false
       widget: string
     - default: Smart
-      label: Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+      label: Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight,
+        Left, Right, BottomLeft, Bottom, BottomRight.
       name: focal_point
       required: false
       widget: string
@@ -748,7 +752,8 @@ collections:
       required: false
       widget: string
     - default: Smart
-      label: Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+      label: Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight,
+        Left, Right, BottomLeft, Bottom, BottomRight.
       name: focal_point
       required: false
       widget: string
@@ -823,5 +828,6 @@ collections:
     name: terms
   label: Pages
   name: pages
+local_backend: false
 media_folder: assets/media
 public_folder: /media
