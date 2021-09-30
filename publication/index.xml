@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>Secure Namespaced Kernel Audit for Containers</title>
+      <link>https://tfjmp.org/publication/2021-socc/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2021-socc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>SIGL: Securing Software Installations Through Deep Graph Learning</title>
       <link>https://tfjmp.org/publication/2021-usenixsec/</link>
       <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
