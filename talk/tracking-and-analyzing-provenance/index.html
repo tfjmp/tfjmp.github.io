@@ -1,19 +1,15 @@
 <!DOCTYPE html><html lang="en-us" >
 
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
   
   
-  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
-  
-
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
   
 
-  
   
 
   
@@ -27,55 +23,68 @@
   
   
 
-  <meta name="author" content="Thomas Pasquier">
+  <meta name="author" content="Thomas Pasquier" />
 
   
   
   
     
   
-  <meta name="description" content="Provenance is the representation of a system execution as a directed acyclic graph. Those graphs, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, I will give a general introduction to the field of data provenance and present my work on the development of a provenance-based intrusion detection system. I will discuss the development of the stack from the kernel-level capture mechanism to the algorithm used to perform intrusion detection. This talk is based on papers published at ACM CCS, NDSS and USENIX Security. I will be available after the talk for further technical discussions.">
+  <meta name="description" content="Provenance is the representation of a system execution as a directed acyclic graph. Those graphs, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, we will discuss how we can capture provenance efficiently while providing guarantees about its completeness and accuracy. We will also look at how provenance can be used in practice, for example, to perform intrusion detection." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://tfjmp.org/talk/tracking-and-analyzing-provenance/">
-
-  
-
-
-
-
-
-
+  <link rel="alternate" hreflang="en-us" href="https://tfjmp.org/talk/tracking-and-analyzing-provenance/" />
 
   
 
 
 
 
+
+
+
+
+
+  
+
+
+
+
   
   
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   
 
   
   
   
-  <meta name="theme-color" content="#3f51b5">
+    <meta name="theme-color" content="#3f51b5" />
   
 
   
   
 
   
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
   
   
   
     
     
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous" media="print" onload="this.media='all'">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
 
     
     
@@ -93,7 +102,9 @@
     
 
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
     
 
     
@@ -101,12 +112,6 @@
     
     
       
-
-      
-      
-
-      
-    
       
 
       
@@ -115,12 +120,6 @@
       
     
       
-
-      
-      
-
-      
-    
       
 
       
@@ -129,12 +128,6 @@
       
     
       
-
-      
-      
-
-      
-    
       
 
       
@@ -143,12 +136,6 @@
       
     
       
-
-      
-      
-
-      
-    
       
 
       
@@ -157,12 +144,6 @@
       
     
       
-
-      
-      
-
-      
-    
       
 
       
@@ -171,21 +152,6 @@
       
     
       
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
-      
-    
       
 
       
@@ -194,12 +160,54 @@
       
     
       
+      
 
       
       
 
       
     
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
       
 
       
@@ -210,12 +218,6 @@
       
     
       
-
-      
-      
-
-      
-    
       
 
       
@@ -223,7 +225,14 @@
 
       
     
+      
+      
 
+      
+      
+
+      
+    
   
 
   
@@ -241,10 +250,9 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.dfa4fe6b75a871f1f332bf636ce167bc.css">
+  <link rel="stylesheet" href="/css/wowchemy.ed575da0efb8fb85aa18d05874694ec5.css" />
 
   
-
 
 
 
@@ -260,21 +268,27 @@
 
   
 
+  
+
+
+
 
   
   
-
   
 
   
-  <link rel="manifest" href="/index.webmanifest">
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="https://tfjmp.org/talk/tracking-and-analyzing-provenance/">
+  <link rel="canonical" href="https://tfjmp.org/talk/tracking-and-analyzing-provenance/" />
 
+  
   
   
   
@@ -285,21 +299,24 @@
     
   
   
-  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:card" content="summary_large_image" />
   
-  <meta property="twitter:site" content="@tfjmp">
-  <meta property="twitter:creator" content="@tfjmp">
+    <meta property="twitter:site" content="@tfjmp" />
+    <meta property="twitter:creator" content="@tfjmp" />
   
-  <meta property="og:site_name" content="Thomas Pasquier">
-  <meta property="og:url" content="https://tfjmp.org/talk/tracking-and-analyzing-provenance/">
-  <meta property="og:title" content="Tracking and Analyzing Provenance | Thomas Pasquier">
-  <meta property="og:description" content="Provenance is the representation of a system execution as a directed acyclic graph. Those graphs, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, I will give a general introduction to the field of data provenance and present my work on the development of a provenance-based intrusion detection system. I will discuss the development of the stack from the kernel-level capture mechanism to the algorithm used to perform intrusion detection. This talk is based on papers published at ACM CCS, NDSS and USENIX Security. I will be available after the talk for further technical discussions."><meta property="og:image" content="https://tfjmp.org/talk/tracking-and-analyzing-provenance/featured.png">
-  <meta property="twitter:image" content="https://tfjmp.org/talk/tracking-and-analyzing-provenance/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:site_name" content="Thomas Pasquier" />
+  <meta property="og:url" content="https://tfjmp.org/talk/tracking-and-analyzing-provenance/" />
+  <meta property="og:title" content="Tracking and Analyzing Provenance | Thomas Pasquier" />
+  <meta property="og:description" content="Provenance is the representation of a system execution as a directed acyclic graph. Those graphs, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, we will discuss how we can capture provenance efficiently while providing guarantees about its completeness and accuracy. We will also look at how provenance can be used in practice, for example, to perform intrusion detection." /><meta property="og:image" content="https://tfjmp.org/talk/tracking-and-analyzing-provenance/featured.png" />
+    <meta property="twitter:image" content="https://tfjmp.org/talk/tracking-and-analyzing-provenance/featured.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="article:published_time" content="2017-01-01T00:00:00&#43;00:00">
+      <meta
+        property="article:published_time"
+        content="2017-01-01T00:00:00&#43;00:00"
+      />
     
-    <meta property="article:modified_time" content="2021-01-13T16:55:34&#43;00:00">
+    <meta property="article:modified_time" content="2021-11-21T22:41:11-08:00">
   
 
   
@@ -324,7 +341,7 @@
   
   "location": {
     "@type": "Place",
-    "name": "Two Sigma (Virtually)"
+    "name": "IBM Research Almaden (Virtually)"
   },
   
   
@@ -332,7 +349,7 @@
     "https://tfjmp.org/talk/tracking-and-analyzing-provenance/featured.png"
   ],
   
-  "startDate": "2021-01-28T12:00:00Z",
+  "startDate": "2021-12-01T13:00:00Z",
   
   
   "performer": {
@@ -340,15 +357,13 @@
     "name": "Thomas Pasquier"
   },
   
-  "description": "Provenance is the representation of a system execution as a directed acyclic graph. Those graphs, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, I will give a general introduction to the field of data provenance and present my work on the development of a provenance-based intrusion detection system. I will discuss the development of the stack from the kernel-level capture mechanism to the algorithm used to perform intrusion detection. This talk is based on papers published at ACM CCS, NDSS and USENIX Security. I will be available after the talk for further technical discussions."
+  "description": "Provenance is the representation of a system execution as a directed acyclic graph. Those graphs, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, we will discuss how we can capture provenance efficiently while providing guarantees about its completeness and accuracy. We will also look at how provenance can be used in practice, for example, to perform intrusion detection."
 }
 </script>
 
   
 
-
   
-
 
   
 
@@ -357,11 +372,10 @@
 
 
   <title>Tracking and Analyzing Provenance | Thomas Pasquier</title>
-
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="883526c5c03519491a85103d919be035" >
 
   
   
@@ -371,9 +385,11 @@
   
   
   
-  <script src="/js/wowchemy-init.min.7b836ca971d8f958bd0918f15b370f66.js"></script>
+  
+  <script src="/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js"></script>
 
   
+
 
 <aside class="search-modal" id="search">
   <div class="container">
@@ -395,6 +411,9 @@
         aria-label="Search...">
         
       </div>
+
+      
+      
 
       
 
@@ -426,7 +445,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container">
+  <div class="container-xl">
 
     
     <div class="d-none d-lg-inline-flex">
@@ -436,7 +455,7 @@
 
     
     <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
     <span><i class="fas fa-bars"></i></span>
     </button>
     
@@ -706,7 +725,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#teaching"><span>Teaching & Service</span></a>
+          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
         </li>
 
         
@@ -790,6 +809,7 @@
       
 
       
+      
 
     </ul>
 
@@ -825,8 +845,6 @@
 
   
   
-    
-  
 
 
 <div class="article-container pt-3">
@@ -853,6 +871,7 @@
   
   
   
+  
 
   
   
@@ -865,21 +884,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 130px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 340px; max-height: 148px;">
   <div style="position: relative">
-    <img src="/talk/tracking-and-analyzing-provenance/featured_hue6e345d30ea4a7af6b3048e886b9f009_29392_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <img src="/talk/tracking-and-analyzing-provenance/featured.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -890,7 +900,7 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract">Provenance is the representation of a system execution as a directed acyclic graph. Those graphs, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, I will give a general introduction to the field of data provenance and present my work on the development of a provenance-based intrusion detection system. I will discuss the development of the stack from the kernel-level capture mechanism to the algorithm used to perform intrusion detection. This talk is based on papers published at ACM CCS, NDSS and USENIX Security. I will be available after the talk for further technical discussions.</p>
+      <p class="pub-abstract">Provenance is the representation of a system execution as a directed acyclic graph. Those graphs, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, we will discuss how we can capture provenance efficiently while providing guarantees about its completeness and accuracy. We will also look at how provenance can be used in practice, for example, to perform intrusion detection.</p>
     
 
     <div class="row">
@@ -899,7 +909,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9">
-            Jan 28, 2021 12:00 PM
+            Dec 1, 2021 1:00 PM
           </div>
         </div>
       </div>
@@ -915,7 +925,7 @@
           <div class="col-12 col-md-3 pub-row-heading">Event</div>
           <div class="col-12 col-md-9">
             
-            Two Sigma invited talk
+            IBM Research Almaden - Storage Virtual Speaker Series
             
           </div>
         </div>
@@ -931,7 +941,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Two Sigma (Virtually)</div>
+          <div class="col-12 col-md-9">IBM Research Almaden (Virtually)</div>
           
         </div>
       </div>
@@ -1069,8 +1079,8 @@
 
     <div class="media-body">
       <h5 class="card-title"><a href="https://tfjmp.org/">Thomas Pasquier</a></h5>
-      <h6 class="card-subtitle">Lecturer (Assistant Professor) in Computer Science</h6>
-      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <h6 class="card-subtitle">Assistant Professor</h6>
+      <p class="card-text">My research interests include provenance, operating systems, distributed systems and intrusion detection.</p>
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -1085,6 +1095,21 @@
     <li>
       <a href="mailto:tfjmp@cs.ubc.ca" >
         <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://tfjmp.org/files/vitae.pdf" target="_blank" rel="noopener">
+        <i class="ai ai-cv"></i>
       </a>
     </li>
   
@@ -1214,6 +1239,21 @@
       </a>
     </li>
   
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://arxiv.org/a/pasquier_t_1.html" target="_blank" rel="noopener">
+        <i class="ai ai-arxiv"></i>
+      </a>
+    </li>
+  
 </ul>
 
     </div>
@@ -1234,6 +1274,9 @@
 
 
 
+  
+  
+
 
 
 
@@ -1247,11 +1290,20 @@
     
     <div class="container">
       <footer class="site-footer">
+
   
 
+
+
+  
+
+  
+
+  
   <p class="powered-by">
-    
+    © 2017-2021 Thomas Pasquier
   </p>
+  
 
   
   
@@ -1265,10 +1317,13 @@
     
     
     
-    Published with
-    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
-    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
-    open source</a> website builder that empowers creators.
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
     
   </p>
 </footer>
@@ -1306,18 +1361,19 @@
       
 
     
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
 
+    
+    
+    
       
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
       
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+      
+      
 
       
 
@@ -1325,7 +1381,8 @@
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" crossorigin="anonymous"></script>
         
       
 
@@ -1333,62 +1390,32 @@
 
     
     
+    
       <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
     
 
     
     
-    <script>const code_highlighting = true;</script>
-    
 
     
     
     
-    
-    
-    
-    <script>
-      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'event' : "Events",
-        'slides' : "Slides"
-        };
-    </script>
-    
-
-    
-    
-
-    
-    
-    <script id="search-hit-fuse-template" type="text/x-template">
-      <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
         </div>
-      </div>
-      </div>
-    </script>
-    
-
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    
-
-    
-    
-
-    
-    
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
     
 
     
@@ -1396,9 +1423,20 @@
 
     
     
+    
+    
 
     
     
+      
+      
+      
+      
+      
+      
+      
+    
+
     
     
     
@@ -1411,7 +1449,7 @@
       
     
     
-    <script src="/js/wowchemy.min.fcc8d435fe4f5be7ec14875ba78d690a.js"></script>
+    <script src="/en/js/wowchemy.min.8859d3cf6e5d748215fea2814e2e9c7f.js"></script>
 
     
 
