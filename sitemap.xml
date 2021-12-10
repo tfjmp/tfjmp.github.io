@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tfjmp.org/tag/academic/</loc>
+    <lastmod>2021-12-10T12:14:38-08:00</lastmod>
+  </url><url>
+    <loc>https://tfjmp.org/category/application/</loc>
+    <lastmod>2021-12-10T12:14:38-08:00</lastmod>
+  </url><url>
+    <loc>https://tfjmp.org/categories/</loc>
+    <lastmod>2021-12-10T12:14:38-08:00</lastmod>
+  </url><url>
+    <loc>https://tfjmp.org/post/interview/</loc>
+    <lastmod>2021-12-10T12:14:38-08:00</lastmod>
+  </url><url>
+    <loc>https://tfjmp.org/post/</loc>
+    <lastmod>2021-12-10T12:14:38-08:00</lastmod>
+  </url><url>
+    <loc>https://tfjmp.org/tags/</loc>
+    <lastmod>2021-12-10T12:14:38-08:00</lastmod>
+  </url><url>
     <loc>https://tfjmp.org/</loc>
-    <lastmod>2021-12-09T15:41:43-08:00</lastmod>
+    <lastmod>2021-12-10T12:14:38-08:00</lastmod>
   </url><url>
     <loc>https://tfjmp.org/talk/tracking-and-analyzing-provenance/</loc>
     <lastmod>2021-11-21T22:41:11-08:00</lastmod>
@@ -22,30 +40,6 @@
   </url><url>
     <loc>https://tfjmp.org/talk/efficient-large-scale-data-provenance-tracking-and-analyzing-intrusion-detection/</loc>
     <lastmod>2021-02-25T11:28:07+00:00</lastmod>
-  </url><url>
-    <loc>https://tfjmp.org/tag/academic/</loc>
-    <lastmod>2021-10-10T08:29:56-06:00</lastmod>
-  </url><url>
-    <loc>https://tfjmp.org/categories/</loc>
-    <lastmod>2021-10-10T08:29:56-06:00</lastmod>
-  </url><url>
-    <loc>https://tfjmp.org/category/demo/</loc>
-    <lastmod>2021-10-10T08:29:56-06:00</lastmod>
-  </url><url>
-    <loc>https://tfjmp.org/post/</loc>
-    <lastmod>2021-10-10T08:29:56-06:00</lastmod>
-  </url><url>
-    <loc>https://tfjmp.org/tags/</loc>
-    <lastmod>2021-10-10T08:29:56-06:00</lastmod>
-  </url><url>
-    <loc>https://tfjmp.org/post/getting-started/</loc>
-    <lastmod>2021-10-10T08:29:56-06:00</lastmod>
-  </url><url>
-    <loc>https://tfjmp.org/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2021-10-10T08:29:56-06:00</lastmod>
-  </url><url>
-    <loc>https://tfjmp.org/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2021-10-10T08:29:56-06:00</lastmod>
   </url><url>
     <loc>https://tfjmp.org/talk/building-a-provenance-based-intrusion-detection-system/</loc>
     <lastmod>2020-12-08T07:00:00+00:00</lastmod>
