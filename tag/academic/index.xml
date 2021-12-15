@@ -32,9 +32,12 @@ You should feel free to point this out during your presentation if you feel comf
 &lt;h3 id=&#34;questions-to-the-applicant-10min&#34;&gt;Questions to the applicant (10min)&lt;/h3&gt;
 &lt;p&gt;Following your presentation, we will undoubtedly want to ask you questions about your work as well as questions to assess how well your research interests fit into our lab.&lt;/p&gt;
 &lt;h3 id=&#34;paper-reading-10min&#34;&gt;Paper reading (10min)&lt;/h3&gt;
-&lt;p&gt;Please pick a paper from the following list:&lt;/p&gt;
+&lt;p&gt;Please pick &lt;strong&gt;one&lt;/strong&gt; paper from the following list:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;TODO make a list of paper published this year on topics relevant to my research.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/pdf/10.1145/3448016.3457568&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Negi, Parimarjan, et al. &amp;ldquo;Steering Query Optimizers: A Practical Take on Big Data Workloads.&amp;rdquo; Proceedings of the 2021 International Conference on Management of Data (SIGMOD). 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ndss-symposium.org/wp-content/uploads/2020/02/24065-paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paccagnella, Riccardo, et al. &amp;ldquo;Custos: Practical tamper-evident auditing of operating systems using trusted execution.&amp;rdquo; Network and Distributed System Security Symposium (NDSS). 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.usenix.org/system/files/sec21-alsaheel.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Alsaheel, Abdulellah, et al. &amp;ldquo;ATLAS: A Sequence-based Learning Approach for Attack Investigation.&amp;rdquo; 30th Security Symposium (USENIX Securitys). 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.usenix.org/system/files/sec21-bahmani.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bahmani, Raad, et al. &amp;ldquo;CURE: A Security Architecture with CUstomizable and Resilient Enclaves.&amp;rdquo; 30th Security Symposium (USENIX Security). 2021&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You should pick a paper that appears to be the most relevant to the research you are thinking of pursuing.
 Reading academic papers is difficult; learning to do so will be an important skill you will acquire in graduate school.

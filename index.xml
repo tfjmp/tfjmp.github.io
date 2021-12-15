@@ -32,9 +32,12 @@ You should feel free to point this out during your presentation if you feel comf
 &lt;h3 id=&#34;questions-to-the-applicant-10min&#34;&gt;Questions to the applicant (10min)&lt;/h3&gt;
 &lt;p&gt;Following your presentation, we will undoubtedly want to ask you questions about your work as well as questions to assess how well your research interests fit into our lab.&lt;/p&gt;
 &lt;h3 id=&#34;paper-reading-10min&#34;&gt;Paper reading (10min)&lt;/h3&gt;
-&lt;p&gt;Please pick a paper from the following list:&lt;/p&gt;
+&lt;p&gt;Please pick &lt;strong&gt;one&lt;/strong&gt; paper from the following list:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;TODO make a list of paper published this year on topics relevant to my research.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/pdf/10.1145/3448016.3457568&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Negi, Parimarjan, et al. &amp;ldquo;Steering Query Optimizers: A Practical Take on Big Data Workloads.&amp;rdquo; Proceedings of the 2021 International Conference on Management of Data (SIGMOD). 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ndss-symposium.org/wp-content/uploads/2020/02/24065-paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paccagnella, Riccardo, et al. &amp;ldquo;Custos: Practical tamper-evident auditing of operating systems using trusted execution.&amp;rdquo; Network and Distributed System Security Symposium (NDSS). 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.usenix.org/system/files/sec21-alsaheel.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Alsaheel, Abdulellah, et al. &amp;ldquo;ATLAS: A Sequence-based Learning Approach for Attack Investigation.&amp;rdquo; 30th Security Symposium (USENIX Securitys). 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.usenix.org/system/files/sec21-bahmani.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bahmani, Raad, et al. &amp;ldquo;CURE: A Security Architecture with CUstomizable and Resilient Enclaves.&amp;rdquo; 30th Security Symposium (USENIX Security). 2021&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You should pick a paper that appears to be the most relevant to the research you are thinking of pursuing.
 Reading academic papers is difficult; learning to do so will be an important skill you will acquire in graduate school.
@@ -141,14 +144,6 @@ We recruit bright students, most students will have multiple offers so you shoul
       <link>https://tfjmp.org/publication/2020-bigdata/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://tfjmp.org/publication/2020-bigdata/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SYNERGIA</title>
-      <link>https://tfjmp.org/project/synergia/</link>
-      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/project/synergia/</guid>
       <description></description>
     </item>
     
@@ -357,15 +352,6 @@ We recruit bright students, most students will have multiple offers so you shoul
     </item>
     
     <item>
-      <title>Tuneful</title>
-      <link>https://tfjmp.org/project/tuneful/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/project/tuneful/</guid>
-      <description>&lt;p&gt;Tuneful is an extension for Spark which optimizes workload configurations starting from a zero-knowledge setting. The more workloads a cluster executes, the better it becomes at executing them. In order to achieve this, we leverage Multi Task Gaussian Process, Similarity Analysis and Significance Analysis.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Practical Whole-System Provenance Capture</title>
       <link>https://tfjmp.org/talk/practical-whole-system-provenance-capture/</link>
       <pubDate>Mon, 25 Sep 2017 10:20:00 +0000</pubDate>
@@ -378,23 +364,6 @@ We recruit bright students, most students will have multiple offers so you shoul
       <link>https://tfjmp.org/publication/2017-socc/</link>
       <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       <guid>https://tfjmp.org/publication/2017-socc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CamFlow</title>
-      <link>https://tfjmp.org/project/camflow/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/project/camflow/</guid>
-      <description>&lt;p&gt;CamFlow stands for Cambridge information Flow architecture, the Cam is also the river that flows through Cambridge, UK. CamFlow is a Linux Security Module (LSM) designed to capture data provenance for the purpose of system audit. The whole-system provenance capture mechanism is highly configurable, and can fit the needs of many different type of applications. CamFlow can stack with existing security modules such as SELinux.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>End to End Provenance</title>
-      <link>https://tfjmp.org/project/provtools/</link>
-      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/project/provtools/</guid>
       <description></description>
     </item>
     
@@ -552,29 +521,11 @@ We recruit bright students, most students will have multiple offers so you shoul
     </item>
     
     <item>
-      <title>Microsoft Cloud Computing Research Centre</title>
-      <link>https://tfjmp.org/project/mccrc/</link>
-      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/project/mccrc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Information Flow Control for Secure Cloud Computing</title>
       <link>https://tfjmp.org/publication/2014-tnsm/</link>
       <pubDate>Mon, 06 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://tfjmp.org/publication/2014-tnsm/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>CloudSafetyNet</title>
-      <link>https://tfjmp.org/project/cloudsafetynet/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://tfjmp.org/project/cloudsafetynet/</guid>
-      <description>&lt;p&gt;Security considerations are a major issue holding back the widespread adoption of cloud computing: many organisations are concerned about the confidentiality and integrity of their users&#39; data when hosted in third-party public clouds. Today&amp;rsquo;s cloud providers struggle to give strong security guarantees that user data belonging to cloud tenants will be protected &amp;ldquo;end-to-end&amp;rdquo;, i.e. across the entire workflow of a complex cloud-hosted distributed application.  The focus of the CloudSafetyNet project is to  fundamentally rethink how platform-as-a-service (PaaS) clouds should handle security requirements of applications. The overall goal is to provide the CloudSafetyNet middleware, a novel PaaS platform that acts as a &amp;ldquo;safety net&amp;rdquo;, protecting against security violations caused by implementation flaws in applications (&amp;ldquo;intra-tenant security&amp;rdquo;) or vulnerabilities in the cloud platform itself (&amp;ldquo;inter-tenant security&amp;rdquo;).&lt;/p&gt;
-&lt;p&gt;CloudSafetyNet follows a &amp;ldquo;data-centric&amp;rdquo; security model: the integrity and confidentiality of application data is protected according to data flow policies &amp;ndash; agreements between cloud tenants and the provider specifying the permitted and prohibited exchanges of data between application components. It will enforce data flow policies through multiple levels of security mechanisms following a &amp;ldquo;defence-in-depth&amp;rdquo; strategy: based on policies, it creates &amp;ldquo;data compartments&amp;rdquo; that contain one or more components and isolate user data. A small privileged kernel, which is part of the middleware and constitutes a trusted computing base (TCB), tracks the flow of data between compartments and prevents flows that would violate policies. Previously such information flow control (IFC) models have been used successfully to enhance programming language, operating system and web application security.&lt;/p&gt;
-</description>
     </item>
     
     <item>
