@@ -5,12 +5,289 @@
     <link>https://tfjmp.org/</link>
       <atom:link href="https://tfjmp.org/index.xml" rel="self" type="application/rss+xml" />
     <description>Thomas Pasquier</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tfjmp.org/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Thomas Pasquier</title>
       <link>https://tfjmp.org/</link>
     </image>
+    
+    <item>
+      <title>[538P] Topic in Computer Systems: Systems Security (2022-2023)</title>
+      <link>https://tfjmp.org/post/2022-538p/</link>
+      <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/post/2022-538p/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;UNDER CONSTRUCTION&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;course-description&#34;&gt;Course Description&lt;/h2&gt;
+&lt;p&gt;The goal of this course is to expose students to a variety of topics in Systems Security.
+Security inherently touch on all areas of computer science.
+Therefore, this course was designed as a &lt;em&gt;breadth&lt;/em&gt; course, addressed to all students in the department.
+The core idea underlying the course is to bring together a diversity of view points to generate interesting discussions.
+On the other hand, we could also easily design a &lt;em&gt;depth&lt;/em&gt; course focused on any of the topics we will discuss.
+The project component is the opportunity for students to explore one of those topics in more depth.
+Students are free (and encouraged) to apply their expertise (ML, PL, HCI, architecture etc.) to solve a specific Security problem.
+Some of the papers have been selected explicitly to highlight the interdisciplinary nature of Systems Security and to showcase
+how diverse perspectives are welcomed and appreciated.&lt;/p&gt;
+&lt;h2 id=&#34;course-requirements&#34;&gt;Course Requirements&lt;/h2&gt;
+&lt;h2 id=&#34;course-objectives&#34;&gt;Course Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;reason about security problems;&lt;/li&gt;
+&lt;li&gt;learn to read, critic, and write security papers;&lt;/li&gt;
+&lt;li&gt;better understand the review process;&lt;/li&gt;
+&lt;li&gt;implement and evaluate a security prototype.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;class-format&#34;&gt;Class format&lt;/h2&gt;
+&lt;p&gt;This is a seminar type class.
+Every class we will discuss a different paper.
+I have selected a mix of recent and older papers.
+There will be two presenters during each class.
+Each presenter will play a different role: the role of the Advocate and the role of the Critic.
+The Advocate should play a role similar to that of the original authors and try to sell the work to the audience.
+On the other hand, the Critic while remaining objective should towards the end of the presentation highlight the flows of the paper and convince the audience that the paper is no good.
+The Advocate presentation will last 20-25 minutes, you should motivate the work,
+summarize the paper, and present the results.
+The Critic presentation will last 10 minutes, you do not need to cover motivation
+or summarization, instead you should focus on the shortcomings of the paper.
+While shorter, the critic presentation is much more work to prepare.&lt;/p&gt;
+&lt;p&gt;In order to do well during your presentation, you should remember to stick to your role (Advocate or Critic).
+Further, you do not need to spend too much time explaining the basic of the paper, everyone in class will have already read it.
+What add value to the presentation is your opinion and the insights you can extract from the paper! This what you should focus on.&lt;/p&gt;
+&lt;p&gt;You should expect to present at least 2 or 3 times during the term depending on the number of students registered.
+After the presentation we will take a 10 minutes break and discuss the paper.
+You should come prepared to those discussions and be ready to engage.&lt;/p&gt;
+&lt;h2 id=&#34;paper-reports&#34;&gt;Paper reports&lt;/h2&gt;
+&lt;p&gt;For each assigned paper you must write a report. You are to use the &lt;a href=&#34;https://www.usenix.org/conferences/author-resources/paper-templates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USENIX latex template&lt;/a&gt;
+for formatting.
+In your report, please, follow this structure:&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;h3 id=&#34;paper-summary-no-more-than-250-words&#34;&gt;Paper Summary (no more than 250 words)&lt;/h3&gt;
+&lt;p&gt;Provide a brief summary of the paper (3-5 sentences is usually enough). The aim is to demonstrate
+that you’ve read (and understood) the paper, so try to paraphrase and extract the essentials. At this
+stage you should aim to be objective; later sections allow for your own opinion.&lt;/p&gt;
+&lt;h3 id=&#34;answer-the-following-no-more-than-750-words-in-total&#34;&gt;Answer the following (no more than 750 words in total)&lt;/h3&gt;
+&lt;h4 id=&#34;the-problem&#34;&gt;The Problem&lt;/h4&gt;
+&lt;p&gt;What is the problem? Why is it important? What is previous work insufficient (or Why has the
+problem not been solved before, e.g. it’s a new problem the authors have identified). This is your take
+on what the authors say in the paper (so again should be fairly objective). If the paper doesn’t seem
+to tackle a particular problem, then focus on their primary motivation for the work. 1-2 sentences for
+each of the three questions is probably sufficient.&lt;/p&gt;
+&lt;h4 id=&#34;the-solution-or-approach&#34;&gt;The Solution (or Approach)&lt;/h4&gt;
+&lt;p&gt;What is their approach/solution? How does it solve the problem? How is the solution unique and/or
+innovative (if it is)? What are the details? Once more you should use the paper itself as the source to
+help you answer these questions– but, as in previous parts, please do not just copy sections from the
+paper. Instead you should focus on paraphrasing / synopsising, and extracting the essential details.
+Depending on the paper, you’ll probably need 5-10 sentences here.&lt;/p&gt;
+&lt;h4 id=&#34;evaluation&#34;&gt;Evaluation&lt;/h4&gt;
+&lt;p&gt;How do they evaluation their solution? What questions do they set out to answer? What does the
+evaluation stay about the strengths and weaknesses of their system? What are the strengths and weaknesses of the evaluation itself do you think? A total of 3-4 sentences should suffice here – we’re
+looking for highlights, not a point by point reproduction of the evaluation section(s).
+In the rare case that there is no evaluation section, skip this part of the report.&lt;/p&gt;
+&lt;h4 id=&#34;questions-for-the-authors&#34;&gt;Questions for the Authors&lt;/h4&gt;
+&lt;p&gt;Imagine you’re attending a talk about this paper given by one of the authors. List at least 2 questions
+that you would like to ask. These should ideally be specific to the paper / research.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;
+&lt;p&gt;The project must address a non-trivial problem relevant to systems security. The project can resolve the problem by building a system, by collecting data/carrying out experiments, by developing algorithms and proving them correct, etc. I strongly prefer that you do your project in a team of 2-4 people.
+You are encouraged to apply techniques from your main area of expertise to the topic of security (e.g., perform intrusion detection using ML techniques).&lt;/p&gt;
+&lt;p&gt;You should plan to schedule some time to chat about your project idea with me.
+Please, do not hesitate to send me an e-mail as soon as you want to discuss.&lt;/p&gt;
+&lt;p&gt;The required project deliverables are listed below.
+Written submissions will be made through TBC and must be formatted using the &lt;a href=&#34;https://www.usenix.org/conferences/author-resources/paper-templates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USENIX latex template&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Project Proposal Draft:&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Proposal Presentation:&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Proposal Peer Review:&lt;/strong&gt; each students will review proposal from other groups and give feedback. You should take this task seriously.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Proposal:&lt;/strong&gt; you should incorporate feedback from the peer review process. I also strongly encourage you to schedule time to chat with me.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Report Draft:&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Presentation:&lt;/strong&gt; a presentation describing your project. I encourage you to demo your project during your talk. Each presentation will be followed by a QA period. Presentation timing details TBD.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Report Peer Review:&lt;/strong&gt; as per the proposal stage, you will be asked to review the report from other teams.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Report:&lt;/strong&gt; you should incorporate feedback from the peer review process. I also strongly encourage you to schedule time to chat with me.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;deadlines-tbc&#34;&gt;Deadlines (TBC)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Project Proposal Draft:&lt;/strong&gt; Friday, February 9th&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Proposal Presentation:&lt;/strong&gt; Wednesday, February 15th&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Proposal Peer Review:&lt;/strong&gt; Friday February 17th&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Proposal:&lt;/strong&gt; Monday, February 27th&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Report Draft:&lt;/strong&gt; Friday, April 7th&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Presentation:&lt;/strong&gt; Wednesday, April 12th&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Report Peer Review:&lt;/strong&gt; Friday, April 14th&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Report:&lt;/strong&gt; Friday, April 28th&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;grading&#34;&gt;Grading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Project proposal (group) 10%&lt;/li&gt;
+&lt;li&gt;Peer Review 10%&lt;/li&gt;
+&lt;li&gt;Open-ended project (group) 45%&lt;/li&gt;
+&lt;li&gt;Paper reports 20%&lt;/li&gt;
+&lt;li&gt;Presentation(s) 10%&lt;/li&gt;
+&lt;li&gt;Participation (in-class discussion) 5%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;schedule--reading-list&#34;&gt;Schedule &amp;amp; Reading List&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Day&lt;/th&gt;
+&lt;th&gt;Paper&lt;/th&gt;
+&lt;th&gt;Presenters&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 9 Mon&lt;/td&gt;
+&lt;td&gt;Introduction - Course Overview - Reading a Paper &lt;br/&gt; Reading (no report): How to read a paper&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 11 Wed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/8523802&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Study on the Security Implications of Information Leakages in Container Clouds&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 16 Mon&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gzs715.github.io/pubs/HOUDINI_CCS19.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Houdini&amp;rsquo;s Escape: Breaking the Resource Rein of Linux Control Groups&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 18 Wed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SCONE: Secure Linux Containers with Intel SGX&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 23 Mon&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-sun.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Security Namespace: Making Linux Security Frameworks Available to Containers&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 25 Wed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www-users.cse.umn.edu/~kjlu/papers/kara.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demons in the Shared Kernel: Abstract Resource Attacks Against OS-level Virtualization&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 30 Mon&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/1199328&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anomaly detection using call stack information&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 1 Wed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/924295&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A fast automaton-based method for detecting anomalous program behaviors&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 6 Mon&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://dl.acm.org/doi/pdf/10.1145/2939672.2939783&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fast Memory-efficient Anomaly Detection in Streaming Heterogeneous Graphs&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 8 Wed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://dl.acm.org/doi/pdf/10.1145/3460120.3484589&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeepAID: Interpreting and Improving Deep Learning-based Anomaly Detection in Security Applications&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 13 Mon&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.usenix.org/legacy/event/sec05/tech/full_papers/kruegel/kruegel.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Automating mimicry attacks using static binary analysis&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 15 Wed&lt;/td&gt;
+&lt;td&gt;Proposal Presentation&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 20 Mon&lt;/td&gt;
+&lt;td&gt;Midterm&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 22 Wed&lt;/td&gt;
+&lt;td&gt;Midterm&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 27 Mon&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://users.cs.northwestern.edu/~robby/courses/395-495-2017-winter/ndss2008.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Automated whitebox fuzz testing&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 1 Wed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.usenix.org/system/files/woot20-paper-fioraldi.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AFL++: Combining Incremental Steps of Fuzzing Research&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 6 Mon&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-schumilo.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kAFL: Hardware-assisted feedback fuzzing for OS kernels&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 8 Wed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://web.cse.ohio-state.edu/~zhao.2708/assets/ndss18/NDSS18.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IoTFuzzer: Discovering Memory Corruptions in IoT Through App-based Fuzzing&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 13 Mon&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-he.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rethinking Access Control and Authentication for the Home Internet of Things (IoT)&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 15 Wed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://dl.acm.org/doi/pdf/10.1145/3355369.3355577&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Information Exposure From Consumer IoT Devices: A Multidimensional, Network-Informed Measurement Approach&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 20 Mon&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-carlini.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Control-Flow Bending: On the Effectiveness of Control-Flow Integrity&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 22 Wed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.ieee-security.org/TC/SP2014/papers/KCoFI_c_CompleteControl-FlowIntegrityforCommodityOperatingSystemKernels.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KCoFI: Complete control-flow integrity for commodity operating system kernels&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 27 Mon&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://pdos.csail.mit.edu/papers/lxfi:sosp11.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Software fault isolation with API integrity and multi-principal modules&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 29 Wed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.usenix.net/system/files/atc19-narayanan.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LXDs: Towards isolation of kernel subsystems&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Apr 3 Mon&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.usenix.org/system/files/osdi20-narayanan_vikram.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RedLeaf: Isolation and Communication in a Safe Operating System&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Apr 5 Wed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/319151.319163&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EROS: a fast capability system&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Apr 10 Mon&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cl.cam.ac.uk/~dc552/papers/201505-oakland2015-cheri-compartmentalization.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cheri: A hybrid capability-system architecture for scalable software compartmentalization&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Apr 12 Wed&lt;/td&gt;
+&lt;td&gt;Project Presentation&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;late-policy&#34;&gt;Late Policy&lt;/h2&gt;
+&lt;p&gt;You will receive a 0 for late work unless you have an approved extension.&lt;/p&gt;
+&lt;p&gt;For individual assignments, the deadline for one assignment can be extended by 24 hours with no penalty to the mark. Extension requests must be made explicitly through e-mail. Extension requests must be made no later than 24 hours past the deadline.&lt;/p&gt;
+&lt;p&gt;For group tasks you can request an extension of 24 hours as long as someone in your group has an unused extension. You cannot receive an extension of more than 24 hours for a group deliverable.&lt;/p&gt;
+&lt;h2 id=&#34;academic-honesty-and-collaboration-guidelines&#34;&gt;Academic honesty and collaboration guidelines&lt;/h2&gt;
+&lt;p&gt;The department has a detailed policy regarding &lt;a href=&#34;https://my.cs.ubc.ca/docs/collaboration-plagiarism&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;collaboration and plagiarism&lt;/a&gt;. You must familiarize yourself with this policy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paper reports:&lt;/strong&gt; You should write your reports individually. You are free to discuss with others,
+but you must write the reports on your own. You should clearly reference any resources you have used.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Projects:&lt;/strong&gt; ou are free to use any code you find in your project. However, a non-trivial fraction of functionality in your prototype must be constructed by your team. You must cite and attribute sources of the code that you borrow/utilize in your project. When writing the project reports, you should follow the same citations standard as expected from conference papers.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The Research Proficiency Evaluation process</title>

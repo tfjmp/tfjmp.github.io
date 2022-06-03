@@ -4,19 +4,23 @@
   
   
   <url>
-    <loc>https://tfjmp.org/tag/academic/</loc><lastmod>2022-05-18T18:58:19-07:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://tfjmp.org/post/2022-538p/</loc><lastmod>2022-06-03T11:50:15-07:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://tfjmp.org/tag/academic/</loc><lastmod>2022-06-03T11:50:15-07:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://tfjmp.org/categories/</loc><lastmod>2022-06-03T11:50:15-07:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://tfjmp.org/category/course/</loc><lastmod>2022-06-03T11:50:15-07:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://tfjmp.org/post/</loc><lastmod>2022-06-03T11:50:15-07:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://tfjmp.org/tags/</loc><lastmod>2022-06-03T11:50:15-07:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://tfjmp.org/</loc><lastmod>2022-06-03T11:50:15-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/category/advising/</loc><lastmod>2022-05-18T18:58:19-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/categories/</loc><lastmod>2022-05-18T18:58:19-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://tfjmp.org/post/</loc><lastmod>2022-05-18T18:58:19-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://tfjmp.org/tags/</loc><lastmod>2022-05-18T18:58:19-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/post/rpe/</loc><lastmod>2022-05-18T18:58:19-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://tfjmp.org/</loc><lastmod>2022-05-24T09:34:31-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/post/working-with-me/</loc><lastmod>2022-05-18T13:39:18-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -24,15 +28,7 @@
   <url>
     <loc>https://tfjmp.org/publication/2022-scidata/</loc><lastmod>2022-04-14T13:10:13-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-04-14T13:10:13-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-04-14T13:10:13-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-04-14T13:10:13-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication_types/</loc><lastmod>2022-04-14T13:10:13-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-04-14T13:10:13-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/category/applications/</loc><lastmod>2022-02-21T17:00:33-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -42,27 +38,9 @@
   <url>
     <loc>https://tfjmp.org/publication-type/1/</loc><lastmod>2022-03-14T18:07:44-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-03-14T18:07:44-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication/2021-socc/</loc><lastmod>2022-03-14T18:07:44-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-03-14T18:07:44-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-03-14T18:07:44-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2021-09-10T21:30:44-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2021-09-10T21:30:44-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2021-09-10T21:30:44-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication/2021-usenixsec/</loc><lastmod>2021-09-10T21:30:44-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2021-09-10T21:30:44-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/talk/efficient-large-scale-data-provenance-tracking-and-analyzing-intrusion-detection/</loc><lastmod>2021-02-25T11:28:07+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -74,67 +52,31 @@
   <url>
     <loc>https://tfjmp.org/talk/to-tune-or-not-to-tune/</loc><lastmod>2020-11-05T20:15:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication/2020-bigdata/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/2020-kdd/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/2020-precs/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication/2020-ndss/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/2020-joss/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/2020-ic2e/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/talk/provenance-based-intrusion-detection/</loc><lastmod>2020-01-15T15:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2021-06-24T18:05:11-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication/2020-cloudcom/</loc><lastmod>2021-06-24T18:05:11-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2021-06-24T18:05:11-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/talk/building-a-provenance-based-ids-and-the-questions-we-ask-ourselves/</loc><lastmod>2019-11-11T09:45:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication/2019-middleware/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/2019-poly/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/talk/towards-provenance-based-intrusion-detection/</loc><lastmod>2019-06-06T10:30:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication/2019-icdcs/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/2019-acm-com/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -146,11 +88,7 @@
   <url>
     <loc>https://tfjmp.org/talk/runtime-analysis-of-whole-system-provenance/</loc><lastmod>2018-10-18T11:30:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication/2018-ccs/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/talk/provenance-based-intrusion-detection-opportunities-and-challenges/</loc><lastmod>2018-07-11T12:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -158,53 +96,25 @@
   <url>
     <loc>https://tfjmp.org/talk/building-a-provenance-capture-mechanism/</loc><lastmod>2018-06-06T15:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication/2018-cise/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/2018-ubi/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/talk/towards-practical-whole-system-provenance/</loc><lastmod>2018-01-08T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/talk/practical-whole-system-provenance-capture/</loc><lastmod>2017-09-25T10:20:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication/2017-socc/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/2017-scidata/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication/2017-hotcloud/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/2017-ic2e/</loc><lastmod>2020-11-25T05:54:55+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/2016-mw/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication/2016-sacmat/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/2016-iot/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -232,30 +142,12 @@
   <url>
     <loc>https://tfjmp.org/publication-type/4/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication/2014-tr/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/2014-modularity/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/publication/2014-tnsm/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2021-01-23T19:43:06+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/</loc><lastmod>2021-01-23T19:43:06+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/event/</loc><lastmod>2021-11-21T22:35:52-08:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-05-24T09:34:31-07:00</lastmod><changefreq>weekly</changefreq></url></urlset>
+    <loc>https://tfjmp.org/event/</loc><lastmod>2021-11-21T22:35:52-08:00</lastmod><changefreq>weekly</changefreq></url></urlset>
