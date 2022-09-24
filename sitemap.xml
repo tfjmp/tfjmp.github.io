@@ -12,8 +12,6 @@
   <url>
     <loc>https://tfjmp.org/category/course/</loc><lastmod>2022-06-08T12:00:35-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/post/</loc><lastmod>2022-08-27T21:44:21-07:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://tfjmp.org/tags/</loc><lastmod>2022-08-27T21:44:21-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/</loc><lastmod>2022-08-27T21:44:21-07:00</lastmod><changefreq>weekly</changefreq></url>
@@ -118,6 +116,12 @@
   <url>
     <loc>https://tfjmp.org/publication/2016-iot/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://tfjmp.org/tag/deep-learning/</loc><lastmod>2022-04-24T03:20:45+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://tfjmp.org/project/example/</loc><lastmod>2022-04-24T03:20:45+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://tfjmp.org/project/</loc><lastmod>2022-04-24T03:20:45+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://tfjmp.org/publication/2016-claw/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/2016-ic2e/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
@@ -148,6 +152,8 @@
   <url>
     <loc>https://tfjmp.org/publication/2014-tnsm/</loc><lastmod>2022-01-04T22:46:13-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/publication/</loc><lastmod>2021-01-23T19:43:06+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://tfjmp.org/post/</loc><lastmod>2022-04-24T03:20:45+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/event/</loc><lastmod>2021-11-21T22:35:52-08:00</lastmod><changefreq>weekly</changefreq></url></urlset>
+    <loc>https://tfjmp.org/publication/</loc><lastmod>2022-04-24T03:20:45+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://tfjmp.org/event/</loc><lastmod>2022-04-24T03:20:45+00:00</lastmod><changefreq>weekly</changefreq></url></urlset>
