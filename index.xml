@@ -453,7 +453,7 @@ This includes practices such as documenting, using version control, using proper
 The default assumption is that your code and any other artifacts will be made publicly available after the corresponding paper is published.&lt;/p&gt;
 &lt;p&gt;It is also important to produce software that can run.
 Consequently, I tend to insist on the use of &lt;a href=&#34;https://en.wikipedia.org/wiki/Continuous_integration&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;continuous integration tools and practices&lt;/a&gt; and I would expect us to set this up together in the early stage of a project.
-I am also a big fan of disposable and reproducible development environments and I strongly encourage you to look at &lt;a href=&#34;https://medium.com/linode-cube/use-vagrant-to-improve-development-environment-setup-time-337187d25a3a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;how to use Vagrant&lt;/a&gt;.&lt;/p&gt;
+I am also a big fan of disposable and reproducible development environments and I strongly encourage you to look at &lt;a href=&#34;https://www.vagrantup.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;how to use Vagrant&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;interpersonal-communication-and-cultural-expectations&#34;&gt;Interpersonal Communication and Cultural Expectations&lt;/h2&gt;
 &lt;p&gt;UBC is an English-speaking and liberal environment with its own cultural expectations.
 However, this may sometimes be at odds with what you have been experiencing while growing up.
