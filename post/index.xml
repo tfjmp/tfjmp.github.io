@@ -90,8 +90,8 @@ that you would like to ask. These should ideally be specific to the paper/resear
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;You should submit 23 paper reports (subject to change). Each report done properly is equivalent to
-1% of your final grade for a total of 20%. In practice, this means you have a few
-&amp;ldquo;jokers&amp;rdquo;.&lt;/p&gt;
+1% of your final grade for a total of 20%. The 3 worst report score will be ignored (this gives
+you 3 effective jokers).&lt;/p&gt;
 &lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;
 &lt;p&gt;The project must address a non-trivial problem relevant to systems security. The project can resolve the problem by building a system, collecting data/carrying out experiments, developing algorithms and proving them correct, etc. I strongly prefer that you do your project in a team of 2-4 people.
 You are encouraged to apply techniques from your main area of expertise to the topic of security (e.g., perform intrusion detection using ML techniques).&lt;/p&gt;
@@ -185,8 +185,8 @@ work with you to make it happen.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;grading&#34;&gt;Grading&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Peer Review 10%&lt;/li&gt;
-&lt;li&gt;Project (group) 55%&lt;/li&gt;
+&lt;li&gt;Peer Review 15%&lt;/li&gt;
+&lt;li&gt;Project (group) 50%&lt;/li&gt;
 &lt;li&gt;Paper reports 20%&lt;/li&gt;
 &lt;li&gt;Presentation(s) 10%&lt;/li&gt;
 &lt;li&gt;Participation (in-class discussion) 5%&lt;/li&gt;
@@ -243,7 +243,7 @@ work with you to make it happen.&lt;/p&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Jan 6 Mon&lt;/td&gt;
+&lt;td&gt;Feb 6 Mon&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/924295&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A fast automaton-based method for detecting anomalous program behaviors&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
