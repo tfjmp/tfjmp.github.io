@@ -92,7 +92,7 @@ that you would like to ask. These should ideally be specific to the paper/resear
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;You should submit 23 paper reports (subject to change). Each report done properly is equivalent to
-1% of your final grade for a total of 20%. The 3 worst report score will be ignored (this gives
+1% of your final grade for a total of 20%. The 5 worst report score will be ignored (this gives
 you 3 effective jokers).&lt;/p&gt;
 &lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;
 &lt;p&gt;The project must address a non-trivial problem relevant to systems security. The project can resolve the problem by building a system, collecting data/carrying out experiments, developing algorithms and proving them correct, etc. I strongly prefer that you do your project in a team of 2-4 people.
