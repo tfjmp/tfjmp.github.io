@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Misc | Thomas Pasquier</title>
+    <link>https://tfjmp.org/category/misc/</link>
+      <atom:link href="https://tfjmp.org/category/misc/index.xml" rel="self" type="application/rss+xml" />
+    <description>Misc</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tfjmp.org/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Misc</title>
+      <link>https://tfjmp.org/category/misc/</link>
+    </image>
+    
+    <item>
+      <title>Calendar</title>
+      <link>https://tfjmp.org/post/calendar/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/post/calendar/</guid>
+      <description>&lt;iframe src=&#34;https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23EF6C00&amp;ctz=America%2FVancouver&amp;mode=WEEK&amp;showCalendars=0&amp;showDate=1&amp;showTitle=0&amp;showPrint=1&amp;showTabs=0&amp;src=dGhvbWFzLmZyYW5jaXMucGFzcXVpZXJAZ21haWwuY29t&amp;color=%23F09300&#34; style=&#34;border:solid 1px #777&#34; width=&#34;800&#34; height=&#34;600&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
