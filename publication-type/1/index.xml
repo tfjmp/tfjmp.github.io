@@ -5,12 +5,20 @@
     <link>https://tfjmp.org/publication-type/1/</link>
       <atom:link href="https://tfjmp.org/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tfjmp.org/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://tfjmp.org/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Unleashing Unprivileged eBPF Potential with Dynamic Sandboxing</title>
+      <link>https://tfjmp.org/publication/2023-sigcomm-ebpf/</link>
+      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2023-sigcomm-ebpf/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Secure Namespaced Kernel Audit for Containers</title>
