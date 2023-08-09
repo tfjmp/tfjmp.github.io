@@ -5,12 +5,20 @@
     <link>https://tfjmp.org/publication-type/4/</link>
       <atom:link href="https://tfjmp.org/publication-type/4/index.xml" rel="self" type="application/rss+xml" />
     <description>4</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Nov 2014 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tfjmp.org/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>4</title>
       <link>https://tfjmp.org/publication-type/4/</link>
     </image>
+    
+    <item>
+      <title>Kairos: Practical Intrusion Detection and Investigation using Whole-system Provenance (Supplementary Material)</title>
+      <link>https://tfjmp.org/publication/2024-sp-supp/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2024-sp-supp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Regional clouds: technical considerations</title>

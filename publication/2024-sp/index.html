@@ -78,10 +78,10 @@
   
     
   
-  <meta name="description" content="Data provenance describes how data came to be in its present form. It includes data sources and the transformations that have been applied to them. Data provenance has many uses, from forensics and security to aiding the reproducibility of scientific experiments. We present CamFlow, a whole-system provenance capture mechanism that integrates easily into a PaaS offering. While there have been several prior whole-system provenance systems that captured a comprehensive, systemic and ubiquitous record of a system’s behavior, none have been widely adopted. They either A) impose too much overhead, B) are designed for long-outdated kernel releases and are hard to port to current systems, C) generate too much data, or D) are designed for a single system. CamFlow addresses these shortcoming by: 1) leveraging the latest kernel design advances to achieve efficiency; 2) using a self-contained, easily maintainable implementation relying on a Linux Security Module, NetFilter, and other existing kernel facilities; 3) providing a mechanism to tailor the captured provenance data to the needs of the application; and 4) making it easy to integrate provenance across distributed systems. The provenance we capture is streamed and consumed by tenant-built auditor applications. We illustrate the usability of our implementation by describing three such applications: demonstrating compliance with data regulations; performing fault/intrusion detection; and implementing data loss prevention. We also show how CamFlow can be leveraged to capture meaningful provenance without modifying existing applications." />
+  <meta name="description" content="Provenance graphs are structured audit logs that describe the history of a system&#39;s execution. Recent studies have explored a variety of techniques to analyze provenance graphs for automated host intrusion detection, focusing particularly on advanced persistent threats. Sifting through their design documents, we identify four common dimensions that drive the development of *provenance-based intrusion detection systems* (PIDSes): **scope** (can PIDSes detect modern attacks that infiltrate across application boundaries?), **attack agnosticity** (can PIDSes detect novel attacks without a priori knowledge of attack characteristics?), **timeliness** (can PIDSes efficiently monitor host systems as they run?), and **attack reconstruction** (can PIDSes distill attack activity from large provenance graphs so that sysadmins can easily understand and quickly respond to system intrusion?). We present KAIROS, the first PIDS that simultaneously satisfies the desiderata in all four dimensions, whereas existing approaches sacrifice at least one and struggle to achieve comparable detection performance. Kairos leverages a novel graph neural network-based encoder-decoder architecture that learns the temporal evolution of a provenance graph&#39;s structural changes to quantify the degree of *anomalousness* for each system event. Then, based on this fine-grained information, Kairos reconstructs attack footprints, generating compact *summary graphs* that accurately describe malicious activity over a *stream* of system audit logs. Using state-of-the-art benchmark datasets, we demonstrate that Kairos outperforms previous approaches." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://tfjmp.org/talk/practical-whole-system-provenance-capture/" />
+  <link rel="alternate" hreflang="en-us" href="https://tfjmp.org/publication/2024-sp/" />
 
   
   
@@ -296,7 +296,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://tfjmp.org/talk/practical-whole-system-provenance-capture/" />
+  <link rel="canonical" href="https://tfjmp.org/publication/2024-sp/" />
 
   
   
@@ -321,10 +321,10 @@
     <meta property="twitter:creator" content="@tfjmp" />
   
   <meta property="og:site_name" content="Thomas Pasquier" />
-  <meta property="og:url" content="https://tfjmp.org/talk/practical-whole-system-provenance-capture/" />
-  <meta property="og:title" content="Practical Whole-System Provenance Capture | Thomas Pasquier" />
-  <meta property="og:description" content="Data provenance describes how data came to be in its present form. It includes data sources and the transformations that have been applied to them. Data provenance has many uses, from forensics and security to aiding the reproducibility of scientific experiments. We present CamFlow, a whole-system provenance capture mechanism that integrates easily into a PaaS offering. While there have been several prior whole-system provenance systems that captured a comprehensive, systemic and ubiquitous record of a system’s behavior, none have been widely adopted. They either A) impose too much overhead, B) are designed for long-outdated kernel releases and are hard to port to current systems, C) generate too much data, or D) are designed for a single system. CamFlow addresses these shortcoming by: 1) leveraging the latest kernel design advances to achieve efficiency; 2) using a self-contained, easily maintainable implementation relying on a Linux Security Module, NetFilter, and other existing kernel facilities; 3) providing a mechanism to tailor the captured provenance data to the needs of the application; and 4) making it easy to integrate provenance across distributed systems. The provenance we capture is streamed and consumed by tenant-built auditor applications. We illustrate the usability of our implementation by describing three such applications: demonstrating compliance with data regulations; performing fault/intrusion detection; and implementing data loss prevention. We also show how CamFlow can be leveraged to capture meaningful provenance without modifying existing applications." /><meta property="og:image" content="https://tfjmp.org/talk/practical-whole-system-provenance-capture/featured.png" />
-    <meta property="twitter:image" content="https://tfjmp.org/talk/practical-whole-system-provenance-capture/featured.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://tfjmp.org/publication/2024-sp/" />
+  <meta property="og:title" content="KAIROS: Practical Intrusion Detection and Investigation using Whole-system Provenance | Thomas Pasquier" />
+  <meta property="og:description" content="Provenance graphs are structured audit logs that describe the history of a system&#39;s execution. Recent studies have explored a variety of techniques to analyze provenance graphs for automated host intrusion detection, focusing particularly on advanced persistent threats. Sifting through their design documents, we identify four common dimensions that drive the development of *provenance-based intrusion detection systems* (PIDSes): **scope** (can PIDSes detect modern attacks that infiltrate across application boundaries?), **attack agnosticity** (can PIDSes detect novel attacks without a priori knowledge of attack characteristics?), **timeliness** (can PIDSes efficiently monitor host systems as they run?), and **attack reconstruction** (can PIDSes distill attack activity from large provenance graphs so that sysadmins can easily understand and quickly respond to system intrusion?). We present KAIROS, the first PIDS that simultaneously satisfies the desiderata in all four dimensions, whereas existing approaches sacrifice at least one and struggle to achieve comparable detection performance. Kairos leverages a novel graph neural network-based encoder-decoder architecture that learns the temporal evolution of a provenance graph&#39;s structural changes to quantify the degree of *anomalousness* for each system event. Then, based on this fine-grained information, Kairos reconstructs attack footprints, generating compact *summary graphs* that accurately describe malicious activity over a *stream* of system audit logs. Using state-of-the-art benchmark datasets, we demonstrate that Kairos outperforms previous approaches." /><meta property="og:image" content="https://tfjmp.org/publication/2024-sp/featured.png" />
+    <meta property="twitter:image" content="https://tfjmp.org/publication/2024-sp/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -332,15 +332,18 @@
         content="2017-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2017-09-25T10:20:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-08-09T08:26:47-07:00">
   
 
   
 
 
-
-  
     
+
+
+
+
+
 
 
 
@@ -348,32 +351,34 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://tfjmp.org/talk/practical-whole-system-provenance-capture/"
+    "@id": "https://tfjmp.org/publication/2024-sp/"
   },
-  "name": "Practical Whole-System Provenance Capture",
-  
-  "location": {
-    "@type": "Place",
-    "name": "Santa Clara, California"
-  },
-  
+  "headline": "KAIROS: Practical Intrusion Detection and Investigation using Whole-system Provenance",
   
   "image": [
-    "https://tfjmp.org/talk/practical-whole-system-provenance-capture/featured.png"
+    "https://tfjmp.org/publication/2024-sp/featured.png"
   ],
   
-  "startDate": "2017-09-25T10:20:00Z",
+  "datePublished": "2017-01-01T00:00:00Z",
+  "dateModified": "2023-08-09T08:26:47-07:00",
   
-  
-  "performer": {
+  "author": {
     "@type": "Person",
-    "name": "Thomas Pasquier"
+    "name": "Z Cheng"
   },
   
-  "description": "Data provenance describes how data came to be in its present form. It includes data sources and the transformations that have been applied to them. Data provenance has many uses, from forensics and security to aiding the reproducibility of scientific experiments. We present CamFlow, a whole-system provenance capture mechanism that integrates easily into a PaaS offering. While there have been several prior whole-system provenance systems that captured a comprehensive, systemic and ubiquitous record of a system’s behavior, none have been widely adopted. They either A) impose too much overhead, B) are designed for long-outdated kernel releases and are hard to port to current systems, C) generate too much data, or D) are designed for a single system. CamFlow addresses these shortcoming by: 1) leveraging the latest kernel design advances to achieve efficiency; 2) using a self-contained, easily maintainable implementation relying on a Linux Security Module, NetFilter, and other existing kernel facilities; 3) providing a mechanism to tailor the captured provenance data to the needs of the application; and 4) making it easy to integrate provenance across distributed systems. The provenance we capture is streamed and consumed by tenant-built auditor applications. We illustrate the usability of our implementation by describing three such applications: demonstrating compliance with data regulations; performing fault/intrusion detection; and implementing data loss prevention. We also show how CamFlow can be leveraged to capture meaningful provenance without modifying existing applications."
+  "publisher": {
+    "@type": "Organization",
+    "name": "Thomas Pasquier",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://tfjmp.org/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Provenance graphs are structured audit logs that describe the history of a system's execution. Recent studies have explored a variety of techniques to analyze provenance graphs for automated host intrusion detection, focusing particularly on advanced persistent threats. Sifting through their design documents, we identify four common dimensions that drive the development of *provenance-based intrusion detection systems* (PIDSes): **scope** (can PIDSes detect modern attacks that infiltrate across application boundaries?), **attack agnosticity** (can PIDSes detect novel attacks without a priori knowledge of attack characteristics?), **timeliness** (can PIDSes efficiently monitor host systems as they run?), and **attack reconstruction** (can PIDSes distill attack activity from large provenance graphs so that sysadmins can easily understand and quickly respond to system intrusion?). We present KAIROS, the first PIDS that simultaneously satisfies the desiderata in all four dimensions, whereas existing approaches sacrifice at least one and struggle to achieve comparable detection performance. Kairos leverages a novel graph neural network-based encoder-decoder architecture that learns the temporal evolution of a provenance graph's structural changes to quantify the degree of *anomalousness* for each system event. Then, based on this fine-grained information, Kairos reconstructs attack footprints, generating compact *summary graphs* that accurately describe malicious activity over a *stream* of system audit logs. Using state-of-the-art benchmark datasets, we demonstrate that Kairos outperforms previous approaches."
 }
 </script>
 
@@ -381,8 +386,10 @@
 
   
 
+  
 
-  <title>Practical Whole-System Provenance Capture | Thomas Pasquier</title>
+
+  <title>KAIROS: Practical Intrusion Detection and Investigation using Whole-system Provenance | Thomas Pasquier</title>
 
   
   
@@ -402,7 +409,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="d8884a66cb9c7cb9ce55c1653b6d49dd" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="5466234391b8345cd53c413ba96ef425" >
 
   
   
@@ -891,7 +898,16 @@
     
     
 
-    <div class="pub">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -920,7 +936,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Practical Whole-System Provenance Capture</h1>
+  <h1>KAIROS: Practical Intrusion Detection and Investigation using Whole-system Provenance</h1>
 
   
 
@@ -931,7 +947,31 @@
 
   
   
+  
+  
+  <div>
+    
 
+  <span >
+      Z Cheng</span>, <span >
+      Q Lv</span>, <span >
+      J Liang</span>, <span >
+      Y Wang</span>, <span >
+      D Sun</span>, <span >
+      T Pasquier</span>, <span >
+      X Han</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May, 2024
+  </span>
   
 
   
@@ -970,8 +1010,15 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/1711.05296.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/publications/2024-sp.pdf" target="_blank" rel="noopener">
   PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/2024-sp/cite.bib">
+  Cite
 </a>
 
 
@@ -988,17 +1035,15 @@
 
 
 
-
-
 </div>
 
 
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 400px; max-height: 120px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 329px;">
   <div style="position: relative">
-    <img src="/talk/practical-whole-system-provenance-capture/featured_hua521e57f7eb6beadc732c6d0926ab5d4_6877_720x2500_fit_q75_h2_lanczos_3.webp" width="400" height="120" alt="" class="featured-image">
+    <img src="/publication/2024-sp/featured_huc682e563cf4362d346b8bc4260350a1c_99561_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="329" alt="" class="featured-image">
     
   </div>
 </div>
@@ -1008,33 +1053,20 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">Data provenance describes how data came to be in its present form. It includes data sources and the transformations that have been applied to them. Data provenance has many uses, from forensics and security to aiding the reproducibility of scientific experiments. We present CamFlow, a whole-system provenance capture mechanism that integrates easily into a PaaS offering. While there have been several prior whole-system provenance systems that captured a comprehensive, systemic and ubiquitous record of a system’s behavior, none have been widely adopted. They either A) impose too much overhead, B) are designed for long-outdated kernel releases and are hard to port to current systems, C) generate too much data, or D) are designed for a single system. CamFlow addresses these shortcoming by: 1) leveraging the latest kernel design advances to achieve efficiency; 2) using a self-contained, easily maintainable implementation relying on a Linux Security Module, NetFilter, and other existing kernel facilities; 3) providing a mechanism to tailor the captured provenance data to the needs of the application; and 4) making it easy to integrate provenance across distributed systems. The provenance we capture is streamed and consumed by tenant-built auditor applications. We illustrate the usability of our implementation by describing three such applications: demonstrating compliance with data regulations; performing fault/intrusion detection; and implementing data loss prevention. We also show how CamFlow can be leveraged to capture meaningful provenance without modifying existing applications.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Provenance graphs are structured audit logs that describe the history of a system&rsquo;s execution. Recent studies have explored a variety of techniques to analyze provenance graphs for automated host intrusion detection, focusing particularly on advanced persistent threats. Sifting through their design documents, we identify four common dimensions that drive the development of <em>provenance-based intrusion detection systems</em> (PIDSes): <strong>scope</strong> (can PIDSes detect modern attacks that infiltrate across application boundaries?), <strong>attack agnosticity</strong> (can PIDSes detect novel attacks without a priori knowledge of attack characteristics?), <strong>timeliness</strong> (can PIDSes efficiently monitor host systems as they run?), and <strong>attack reconstruction</strong> (can PIDSes distill attack activity from large provenance graphs so that sysadmins can easily understand and quickly respond to system intrusion?). We present KAIROS, the first PIDS that simultaneously satisfies the desiderata in all four dimensions, whereas existing approaches sacrifice at least one and struggle to achieve comparable detection performance. Kairos leverages a novel graph neural network-based encoder-decoder architecture that learns the temporal evolution of a provenance graph&rsquo;s structural changes to quantify the degree of <em>anomalousness</em> for each system event. Then, based on this fine-grained information, Kairos reconstructs attack footprints, generating compact <em>summary graphs</em> that accurately describe malicious activity over a <em>stream</em> of system audit logs. Using state-of-the-art benchmark datasets, we demonstrate that Kairos outperforms previous approaches.</p>
     
 
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Sep 25, 2017 10:20 AM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
+    
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="https://acmsocc.github.io/2017/" target="_blank" rel="noopener">
-            ACM Symposium on Cloud Computing
+            <a href="/publication/#1">
+              Conference paper
             </a>
           </div>
         </div>
@@ -1049,9 +1081,8 @@
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Santa Clara, California</div>
-          
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>IEEE Symposium on Security and Privacy</em> (IEEE S&amp;P'24).</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -1061,9 +1092,7 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      
-    </div>
+    <div class="article-style"></div>
 
     
 
@@ -1084,7 +1113,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://tfjmp.org/talk/practical-whole-system-provenance-capture/&amp;text=Practical%20Whole-System%20Provenance%20Capture" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://tfjmp.org/publication/2024-sp/&amp;text=KAIROS:%20Practical%20Intrusion%20Detection%20and%20Investigation%20using%20Whole-system%20Provenance" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1097,7 +1126,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://tfjmp.org/talk/practical-whole-system-provenance-capture/&amp;t=Practical%20Whole-System%20Provenance%20Capture" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://tfjmp.org/publication/2024-sp/&amp;t=KAIROS:%20Practical%20Intrusion%20Detection%20and%20Investigation%20using%20Whole-system%20Provenance" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1110,7 +1139,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Practical%20Whole-System%20Provenance%20Capture&amp;body=https://tfjmp.org/talk/practical-whole-system-provenance-capture/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=KAIROS:%20Practical%20Intrusion%20Detection%20and%20Investigation%20using%20Whole-system%20Provenance&amp;body=https://tfjmp.org/publication/2024-sp/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1123,7 +1152,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://tfjmp.org/talk/practical-whole-system-provenance-capture/&amp;title=Practical%20Whole-System%20Provenance%20Capture" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://tfjmp.org/publication/2024-sp/&amp;title=KAIROS:%20Practical%20Intrusion%20Detection%20and%20Investigation%20using%20Whole-system%20Provenance" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1136,7 +1165,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Practical%20Whole-System%20Provenance%20Capture%20https://tfjmp.org/talk/practical-whole-system-provenance-capture/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=KAIROS:%20Practical%20Intrusion%20Detection%20and%20Investigation%20using%20Whole-system%20Provenance%20https://tfjmp.org/publication/2024-sp/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1149,7 +1178,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://tfjmp.org/talk/practical-whole-system-provenance-capture/&amp;title=Practical%20Whole-System%20Provenance%20Capture" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://tfjmp.org/publication/2024-sp/&amp;title=KAIROS:%20Practical%20Intrusion%20Detection%20and%20Investigation%20using%20Whole-system%20Provenance" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1169,190 +1198,48 @@
 
   
   
+    
+
 
 
 
   
-  
-  
-    
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-      
-      <a href="https://tfjmp.org/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu2fdaf5ed7ab25bee3625169da2f59f54_1502510_270x270_fill_q75_lanczos_center.jpg" alt="Thomas Pasquier"></a>
     
 
-    <div class="media-body">
-      <h5 class="card-title"><a href="https://tfjmp.org/">Thomas Pasquier</a></h5>
-      <h6 class="card-subtitle">Assistant Professor</h6>
-      <p class="card-text">My research interests include provenance, operating systems, distributed systems and intrusion detection.</p>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <a href="mailto:tfjmp@cs.ubc.ca" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://tfjmp.org/files/vitae.pdf" target="_blank" rel="noopener">
-        <i class="ai ai-cv"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/tfjmp" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.co.uk/citations?user=TplQGj4AAAAJ" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/tfjmp" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://www.researchgate.net/profile/Thomas_Pasquier2" target="_blank" rel="noopener">
-        <i class="ai ai-researchgate"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="http://orcid.org/0000-0001-6876-1306" target="_blank" rel="noopener">
-        <i class="ai ai-orcid"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://www.linkedin.com/in/thomaspasquier" target="_blank" rel="noopener">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://dblp.uni-trier.de/pid/144/4204.html" target="_blank" rel="noopener">
-        <i class="ai ai-dblp"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://arxiv.org/a/pasquier_t_1.html" target="_blank" rel="noopener">
-        <i class="ai ai-arxiv"></i>
-      </a>
-    </li>
-  
-</ul>
-
-    </div>
-  </div>
 
 
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
 
 
 

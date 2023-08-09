@@ -5,12 +5,28 @@
     <link>https://tfjmp.org/</link>
       <atom:link href="https://tfjmp.org/index.xml" rel="self" type="application/rss+xml" />
     <description>Thomas Pasquier</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 20 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tfjmp.org/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Thomas Pasquier</title>
       <link>https://tfjmp.org/</link>
     </image>
+    
+    <item>
+      <title>KAIROS: Practical Intrusion Detection and Investigation using Whole-system Provenance</title>
+      <link>https://tfjmp.org/publication/2024-sp/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2024-sp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kairos: Practical Intrusion Detection and Investigation using Whole-system Provenance (Supplementary Material)</title>
+      <link>https://tfjmp.org/publication/2024-sp-supp/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2024-sp-supp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Unleashing Unprivileged eBPF Potential with Dynamic Sandboxing</title>
