@@ -78,7 +78,7 @@
   
     
   
-  <meta name="description" content="Provenance is the representation of a system execution as a directed acyclic graph. Whole-system provenance graph, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, I will present my work on the development of a provenance-based intrusion detection system. I will discuss the development of the stack from the kernel-level capture mechanism to the algorithm used to perform intrusion detection. Finally, I will discuss planned future work and areas of potential collaborations." />
+  <meta name="description" content="In this talk, provenance-based intrusion detection will be discussed. We are building a full stack solution to perform host-based intrusion detection using information flow graph to represent a system execution. The talk will cover topics ranging from the kernel instrumentation to capture the relevant data, to the ML techniques used to perform the analysis. Published material and source code relating to this project can be found online at [http://camflow.org](http://camflow.org)." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://tfjmp.org/talk/towards-provenance-based-intrusion-detection/" />
@@ -323,7 +323,7 @@
   <meta property="og:site_name" content="Thomas Pasquier" />
   <meta property="og:url" content="https://tfjmp.org/talk/towards-provenance-based-intrusion-detection/" />
   <meta property="og:title" content="Towards provenance-based intrusion detection | Thomas Pasquier" />
-  <meta property="og:description" content="Provenance is the representation of a system execution as a directed acyclic graph. Whole-system provenance graph, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, I will present my work on the development of a provenance-based intrusion detection system. I will discuss the development of the stack from the kernel-level capture mechanism to the algorithm used to perform intrusion detection. Finally, I will discuss planned future work and areas of potential collaborations." /><meta property="og:image" content="https://tfjmp.org/talk/towards-provenance-based-intrusion-detection/featured.png" />
+  <meta property="og:description" content="In this talk, provenance-based intrusion detection will be discussed. We are building a full stack solution to perform host-based intrusion detection using information flow graph to represent a system execution. The talk will cover topics ranging from the kernel instrumentation to capture the relevant data, to the ML techniques used to perform the analysis. Published material and source code relating to this project can be found online at [http://camflow.org](http://camflow.org)." /><meta property="og:image" content="https://tfjmp.org/talk/towards-provenance-based-intrusion-detection/featured.png" />
     <meta property="twitter:image" content="https://tfjmp.org/talk/towards-provenance-based-intrusion-detection/featured.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="2019-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2019-06-06T10:30:00&#43;00:00">
+    <meta property="article:modified_time" content="2019-03-11T10:00:00&#43;00:00">
   
 
   
@@ -357,7 +357,7 @@
   
   "location": {
     "@type": "Place",
-    "name": "HP Labs, Bristol"
+    "name": "Loughborough University, UK"
   },
   
   
@@ -365,7 +365,7 @@
     "https://tfjmp.org/talk/towards-provenance-based-intrusion-detection/featured.png"
   ],
   
-  "startDate": "2019-06-06T10:30:00Z",
+  "startDate": "2019-03-11T10:00:00Z",
   
   
   "performer": {
@@ -373,7 +373,7 @@
     "name": "Thomas Pasquier"
   },
   
-  "description": "Provenance is the representation of a system execution as a directed acyclic graph. Whole-system provenance graph, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, I will present my work on the development of a provenance-based intrusion detection system. I will discuss the development of the stack from the kernel-level capture mechanism to the algorithm used to perform intrusion detection. Finally, I will discuss planned future work and areas of potential collaborations."
+  "description": "In this talk, provenance-based intrusion detection will be discussed. We are building a full stack solution to perform host-based intrusion detection using information flow graph to represent a system execution. The talk will cover topics ranging from the kernel instrumentation to capture the relevant data, to the ML techniques used to perform the analysis. Published material and source code relating to this project can be found online at [http://camflow.org](http://camflow.org)."
 }
 </script>
 
@@ -402,7 +402,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="07bd1f458408888ce691a120bd5d54c0" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="22766a8517bea86f36316f095712d3e0" >
 
   
   
@@ -953,54 +953,13 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="/slides/2019-hp.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
 
 </div>
 
 
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 720px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 480px;">
   <div style="position: relative">
-    <img src="/talk/towards-provenance-based-intrusion-detection/featured_hu2f2267e24549ed0ea7ac6e012413f8cb_57918_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="720" alt="" class="featured-image">
+    <img src="/talk/towards-provenance-based-intrusion-detection/featured_hue6d63df38960c9ce6f201208962d81fb_101236_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="480" alt="" class="featured-image">
     
   </div>
 </div>
@@ -1011,7 +970,7 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract">Provenance is the representation of a system execution as a directed acyclic graph. Whole-system provenance graph, representing the execution of an entire system from initialization to shut down, can be comprised of millions of graph elements. In this talk, I will present my work on the development of a provenance-based intrusion detection system. I will discuss the development of the stack from the kernel-level capture mechanism to the algorithm used to perform intrusion detection. Finally, I will discuss planned future work and areas of potential collaborations.</p>
+      <p class="pub-abstract">In this talk, provenance-based intrusion detection will be discussed. We are building a full stack solution to perform host-based intrusion detection using information flow graph to represent a system execution. The talk will cover topics ranging from the kernel instrumentation to capture the relevant data, to the ML techniques used to perform the analysis. Published material and source code relating to this project can be found online at <a href="http://camflow.org" target="_blank" rel="noopener">http://camflow.org</a>.</p>
     
 
     <div class="row">
@@ -1020,7 +979,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9">
-            Jun 6, 2019 10:30 AM
+            Mar 11, 2019 10:00 AM
           </div>
         </div>
       </div>
@@ -1035,9 +994,9 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Event</div>
           <div class="col-12 col-md-9">
-            
-            HP Labs Invited Talk
-            
+            <a href="https://www.lboro-ml-workshop.com/" target="_blank" rel="noopener">
+            Workshop on Machine Learning for Cyber Security, Loughborough University
+            </a>
           </div>
         </div>
       </div>
@@ -1052,7 +1011,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">HP Labs, Bristol</div>
+          <div class="col-12 col-md-9">Loughborough University, UK</div>
           
         </div>
       </div>
