@@ -5,12 +5,20 @@
     <link>https://tfjmp.org/</link>
       <atom:link href="https://tfjmp.org/index.xml" rel="self" type="application/rss+xml" />
     <description>Thomas Pasquier</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 20 May 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tfjmp.org/media/icon_hu08a0612ece3264b0c60a561067d923a4_34621_512x512_fill_lanczos_center_3.png</url>
       <title>Thomas Pasquier</title>
       <link>https://tfjmp.org/</link>
     </image>
+    
+    <item>
+      <title>Computational Experiment Comprehension using Provenance Summarization</title>
+      <link>https://tfjmp.org/publication/2024-rep/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2024-rep/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Kairos: Practical Intrusion Detection and Investigation using Whole-system Provenance</title>
