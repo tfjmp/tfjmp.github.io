@@ -59,7 +59,7 @@ This page describes my expectations for the students I supervise.&lt;/p&gt;
 &lt;p&gt;I strongly recommend to use the following &lt;a href=&#34;https://github.com/tfjmp/ubcdiss&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;latex template&lt;/a&gt;.
 Remember, that as per department rules, your thesis proposal &lt;strong&gt;must not&lt;/strong&gt; exceed
 50 pages (excluding appendices).
-You should also remove the front matter from the template (e.g., list of figures, chapter list etc.).
+You should also update and remove part of the front matter from the template (e.g., list of figures, chapter list etc.).
 The page limit is a maximum; it is not a target.
 Successful Thesis Proposal documents can be shorter than the limit.
 Writing within the page limit is important.
@@ -73,11 +73,11 @@ The early part of your summary, should contain your &lt;a href=&#34;https://cs.u
 (more examples &lt;a href=&#34;https://depts.washington.edu/acelab/theses.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;).
 The thesis statement is central to the proposal and you should build the rest of
 the document around it.
-Your goal is to demonstrate than your proposed thesis is non-trivial, novel,
+Your goal is to demonstrate that your proposed thesis is non-trivial, novel,
 plausible and, importantly, useful.&lt;/p&gt;
 &lt;p&gt;You can later subdivide your thesis statement into multiple research questions, but you
 must ensure that they are clearly interconnected, and that they will lead
-to a coherent thesis story.
+to a coherent narrative throughout your thesis.
 You should also discuss why answering those questions is important.&lt;/p&gt;
 &lt;h2 id=&#34;literature-review&#34;&gt;Literature review&lt;/h2&gt;
 &lt;p&gt;The goal in this section is to demonstrate your understanding of the literature,
@@ -108,7 +108,7 @@ You could subdivide the planned research into multiple chunks.
 Each chunk could be summarized into 3 or 4 paragraphs and corresponds to an
 academic paper.
 Those papers will form the basis for your thesis chapters.
-At this stage you should plan for at least 2 or 3 full academic papers.&lt;/p&gt;
+At this stage you should plan for at least 3 full academic papers.&lt;/p&gt;
 &lt;h2 id=&#34;plan-and-timeline&#34;&gt;Plan and Timeline&lt;/h2&gt;
 &lt;p&gt;While your proposal should give the impression that failure of your research is
 unlikely, in reality this possibility exists.
