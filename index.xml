@@ -5,12 +5,20 @@
     <link>https://tfjmp.org/</link>
       <atom:link href="https://tfjmp.org/index.xml" rel="self" type="application/rss+xml" />
     <description>Thomas Pasquier</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tfjmp.org/media/icon_hu08a0612ece3264b0c60a561067d923a4_34621_512x512_fill_lanczos_center_3.png</url>
       <title>Thomas Pasquier</title>
       <link>https://tfjmp.org/</link>
     </image>
+    
+    <item>
+      <title>SafeBPF: Hardware-assisted Defense-in-depth for eBPF Kernel Extensions</title>
+      <link>https://tfjmp.org/publication/2024-ccsw/</link>
+      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2024-ccsw/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>FetchBPF: Customizable Prefetching Policies in Linux with eBPF</title>
