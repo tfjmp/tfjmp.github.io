@@ -78,10 +78,10 @@
   
     
   
-  <meta name="description" content="Data provenance describes how data came to be in its present form. It includes data sources and the transformations that have been applied to them. Data provenance has many uses, from forensics and security to aiding the reproducibility of scientific experiments. We present CamFlow, a whole-system provenance capture mechanism that integrates easily into a PaaS offering. While there have been several prior whole-system provenance systems that captured a comprehensive, systemic and ubiquitous record of a system’s behavior, none have been widely adopted. They either A) impose too much overhead, B) are designed for long-outdated kernel releases and are hard to port to current systems, C) generate too much data, or D) are designed for a single system. CamFlow addresses these shortcoming by: 1) leveraging the latest kernel design advances to achieve efficiency; 2) using a self-contained, easily maintainable implementation relying on a Linux Security Module, NetFilter, and other existing kernel facilities; 3) providing a mechanism to tailor the captured provenance data to the needs of the application; and 4) making it easy to integrate provenance across distributed systems. The provenance we capture is streamed and consumed by tenant-built auditor applications. We illustrate the usability of our implementation by describing three such applications: demonstrating compliance with data regulations; performing fault/intrusion detection; and implementing data loss prevention. We also show how CamFlow can be leveraged to capture meaningful provenance without modifying existing applications." />
+  <meta name="description" content="Past success in applying machine learning to data provenance graphs -- a structured representation of the history of operating system activities -- to detect host system intrusions has fueled continued interest in the security community. Recent solutions, particularly anomaly-based approaches using graph neural networks (GNNs) to detect previously unknown attacks, have reported near-perfect accuracy. Surprisingly, despite this high performance, the industry remains reluctant to adopt these intrusion detection systems (IDSs). We identify Quality of Attribution (QoA) as the key factor contributing to this disconnect. QoA refers to the amount of effort required from a human analyst to investigate an IDS&#39;s detection output, uncover the root causes of an attack, understand its ramifications, and dismiss potential false alarms. Unfortunately, prior work often generates large volumes of low-QoA output, much of which is irrelevant to attack activities, leading to alert fatigue and analyst burnout. We introduce Orthrus, the first IDS to achieve high-QoA detection on data provenance graphs at the node level. Orthrus detects malicious hosts using a GNN encoder designed to capture the fine-grained spatio-temporal dynamics of system events. It then reconstructs the attack path through dependency analysis to ensure high-QoA detection. We compare Orthrus against five state-of-the-art IDSs. Orthrus reduces the number of nodes requiring manual inspection for attack attribution by several orders of magnitude, significantly easing the burden on security analysts while achieving strong detection performance." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://tfjmp.org/publication/2017-socc/" />
+  <link rel="alternate" hreflang="en-us" href="https://tfjmp.org/publication/2025-usenixsec/" />
 
   
   
@@ -296,7 +296,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu08a0612ece3264b0c60a561067d923a4_34621_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu08a0612ece3264b0c60a561067d923a4_34621_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://tfjmp.org/publication/2017-socc/" />
+  <link rel="canonical" href="https://tfjmp.org/publication/2025-usenixsec/" />
 
   
   
@@ -321,18 +321,18 @@
     <meta property="twitter:creator" content="@tfjmp" />
   
   <meta property="og:site_name" content="Thomas Pasquier" />
-  <meta property="og:url" content="https://tfjmp.org/publication/2017-socc/" />
-  <meta property="og:title" content="Practical Whole-System Provenance Capture | Thomas Pasquier" />
-  <meta property="og:description" content="Data provenance describes how data came to be in its present form. It includes data sources and the transformations that have been applied to them. Data provenance has many uses, from forensics and security to aiding the reproducibility of scientific experiments. We present CamFlow, a whole-system provenance capture mechanism that integrates easily into a PaaS offering. While there have been several prior whole-system provenance systems that captured a comprehensive, systemic and ubiquitous record of a system’s behavior, none have been widely adopted. They either A) impose too much overhead, B) are designed for long-outdated kernel releases and are hard to port to current systems, C) generate too much data, or D) are designed for a single system. CamFlow addresses these shortcoming by: 1) leveraging the latest kernel design advances to achieve efficiency; 2) using a self-contained, easily maintainable implementation relying on a Linux Security Module, NetFilter, and other existing kernel facilities; 3) providing a mechanism to tailor the captured provenance data to the needs of the application; and 4) making it easy to integrate provenance across distributed systems. The provenance we capture is streamed and consumed by tenant-built auditor applications. We illustrate the usability of our implementation by describing three such applications: demonstrating compliance with data regulations; performing fault/intrusion detection; and implementing data loss prevention. We also show how CamFlow can be leveraged to capture meaningful provenance without modifying existing applications." /><meta property="og:image" content="https://tfjmp.org/publication/2017-socc/featured.png" />
-    <meta property="twitter:image" content="https://tfjmp.org/publication/2017-socc/featured.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://tfjmp.org/publication/2025-usenixsec/" />
+  <meta property="og:title" content="ORTHRUS: Achieving High Quality of Attribution in Provenance-based Intrusion Detection Systems | Thomas Pasquier" />
+  <meta property="og:description" content="Past success in applying machine learning to data provenance graphs -- a structured representation of the history of operating system activities -- to detect host system intrusions has fueled continued interest in the security community. Recent solutions, particularly anomaly-based approaches using graph neural networks (GNNs) to detect previously unknown attacks, have reported near-perfect accuracy. Surprisingly, despite this high performance, the industry remains reluctant to adopt these intrusion detection systems (IDSs). We identify Quality of Attribution (QoA) as the key factor contributing to this disconnect. QoA refers to the amount of effort required from a human analyst to investigate an IDS&#39;s detection output, uncover the root causes of an attack, understand its ramifications, and dismiss potential false alarms. Unfortunately, prior work often generates large volumes of low-QoA output, much of which is irrelevant to attack activities, leading to alert fatigue and analyst burnout. We introduce Orthrus, the first IDS to achieve high-QoA detection on data provenance graphs at the node level. Orthrus detects malicious hosts using a GNN encoder designed to capture the fine-grained spatio-temporal dynamics of system events. It then reconstructs the attack path through dependency analysis to ensure high-QoA detection. We compare Orthrus against five state-of-the-art IDSs. Orthrus reduces the number of nodes requiring manual inspection for attack attribution by several orders of magnitude, significantly easing the burden on security analysts while achieving strong detection performance." /><meta property="og:image" content="https://tfjmp.org/publication/2025-usenixsec/featured.png" />
+    <meta property="twitter:image" content="https://tfjmp.org/publication/2025-usenixsec/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2017-09-25T00:00:00&#43;00:00"
+        content="2017-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2024-05-01T06:37:39-07:00">
+    <meta property="article:modified_time" content="2025-01-13T13:57:48-08:00">
   
 
   
@@ -354,20 +354,20 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://tfjmp.org/publication/2017-socc/"
+    "@id": "https://tfjmp.org/publication/2025-usenixsec/"
   },
-  "headline": "Practical Whole-System Provenance Capture",
+  "headline": "ORTHRUS: Achieving High Quality of Attribution in Provenance-based Intrusion Detection Systems",
   
   "image": [
-    "https://tfjmp.org/publication/2017-socc/featured.png"
+    "https://tfjmp.org/publication/2025-usenixsec/featured.png"
   ],
   
-  "datePublished": "2017-09-25T00:00:00Z",
-  "dateModified": "2024-05-01T06:37:39-07:00",
+  "datePublished": "2017-01-01T00:00:00Z",
+  "dateModified": "2025-01-13T13:57:48-08:00",
   
   "author": {
     "@type": "Person",
-    "name": "T Pasquier"
+    "name": "B Jian"
   },
   
   "publisher": {
@@ -378,7 +378,7 @@
       "url": "https://tfjmp.org/media/icon_hu08a0612ece3264b0c60a561067d923a4_34621_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Data provenance describes how data came to be in its present form. It includes data sources and the transformations that have been applied to them. Data provenance has many uses, from forensics and security to aiding the reproducibility of scientific experiments. We present CamFlow, a whole-system provenance capture mechanism that integrates easily into a PaaS offering. While there have been several prior whole-system provenance systems that captured a comprehensive, systemic and ubiquitous record of a system’s behavior, none have been widely adopted. They either A) impose too much overhead, B) are designed for long-outdated kernel releases and are hard to port to current systems, C) generate too much data, or D) are designed for a single system. CamFlow addresses these shortcoming by: 1) leveraging the latest kernel design advances to achieve efficiency; 2) using a self-contained, easily maintainable implementation relying on a Linux Security Module, NetFilter, and other existing kernel facilities; 3) providing a mechanism to tailor the captured provenance data to the needs of the application; and 4) making it easy to integrate provenance across distributed systems. The provenance we capture is streamed and consumed by tenant-built auditor applications. We illustrate the usability of our implementation by describing three such applications: demonstrating compliance with data regulations; performing fault/intrusion detection; and implementing data loss prevention. We also show how CamFlow can be leveraged to capture meaningful provenance without modifying existing applications."
+  "description": "Past success in applying machine learning to data provenance graphs -- a structured representation of the history of operating system activities -- to detect host system intrusions has fueled continued interest in the security community. Recent solutions, particularly anomaly-based approaches using graph neural networks (GNNs) to detect previously unknown attacks, have reported near-perfect accuracy. Surprisingly, despite this high performance, the industry remains reluctant to adopt these intrusion detection systems (IDSs). We identify Quality of Attribution (QoA) as the key factor contributing to this disconnect. QoA refers to the amount of effort required from a human analyst to investigate an IDS's detection output, uncover the root causes of an attack, understand its ramifications, and dismiss potential false alarms. Unfortunately, prior work often generates large volumes of low-QoA output, much of which is irrelevant to attack activities, leading to alert fatigue and analyst burnout. We introduce Orthrus, the first IDS to achieve high-QoA detection on data provenance graphs at the node level. Orthrus detects malicious hosts using a GNN encoder designed to capture the fine-grained spatio-temporal dynamics of system events. It then reconstructs the attack path through dependency analysis to ensure high-QoA detection. We compare Orthrus against five state-of-the-art IDSs. Orthrus reduces the number of nodes requiring manual inspection for attack attribution by several orders of magnitude, significantly easing the burden on security analysts while achieving strong detection performance."
 }
 </script>
 
@@ -389,7 +389,7 @@
   
 
 
-  <title>Practical Whole-System Provenance Capture | Thomas Pasquier</title>
+  <title>ORTHRUS: Achieving High Quality of Attribution in Provenance-based Intrusion Detection Systems | Thomas Pasquier</title>
 
   
   
@@ -409,7 +409,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="07f632907fed6a8aade00e2f45948e44" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="fbcc5da5c0c98744051c5293c427438b" >
 
   
   
@@ -899,7 +899,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Practical Whole-System Provenance Capture</h1>
+  <h1>ORTHRUS: Achieving High Quality of Attribution in Provenance-based Intrusion Detection Systems</h1>
 
   
 
@@ -916,13 +916,14 @@
     
 
   <span >
-      T Pasquier</span>, <span >
+      B Jian</span>, <span >
+      T Bilot</span>, <span >
+      N El Madhoun</span>, <span >
+      K Al Agha</span>, <span >
+      A Zouaoui</span>, <span >
+      S Iqbal</span>, <span >
       X Han</span>, <span >
-      M Goldstein</span>, <span >
-      T Moyer</span>, <span >
-      D Eyers</span>, <span >
-      M Seltzer</span>, <span >
-      J Bacon</span>
+      T Pasquier</span>
   </div>
   
   
@@ -933,7 +934,7 @@
     
       
     
-    September, 2017
+    January, 2025
   </span>
   
 
@@ -973,25 +974,18 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="/publications/2017-socc.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/publications/2025-usenixsec.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/2017-socc/cite.bib">
+        data-filename="/publication/2025-usenixsec/cite.bib">
   Cite
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="http://camflow.org" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -1002,11 +996,6 @@
 
 
 
-
-
-<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1145/3127479.3129249" target="_blank" rel="noopener">
-  DOI
-</a>
 
 
 
@@ -1016,10 +1005,10 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 281px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 481px;">
   <div style="position: relative">
-    <img src="/publication/2017-socc/featured_hua80c7ad6f6e747c4d70a6b484c4fba06_398497_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="281" alt="" class="featured-image">
-    <span class="article-header-caption">CamFlow architecture</span>
+    <img src="/publication/2025-usenixsec/featured_hua2891ca7a6c794265ea8212897ba87c5_94942_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="481" alt="" class="featured-image">
+    
   </div>
 </div>
 
@@ -1029,7 +1018,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Data provenance describes how data came to be in its present form. It includes data sources and the transformations that have been applied to them. Data provenance has many uses, from forensics and security to aiding the reproducibility of scientific experiments. We present CamFlow, a whole-system provenance capture mechanism that integrates easily into a PaaS offering. While there have been several prior whole-system provenance systems that captured a comprehensive, systemic and ubiquitous record of a system’s behavior, none have been widely adopted. They either A) impose too much overhead, B) are designed for long-outdated kernel releases and are hard to port to current systems, C) generate too much data, or D) are designed for a single system. CamFlow addresses these shortcoming by: 1) leveraging the latest kernel design advances to achieve efficiency; 2) using a self-contained, easily maintainable implementation relying on a Linux Security Module, NetFilter, and other existing kernel facilities; 3) providing a mechanism to tailor the captured provenance data to the needs of the application; and 4) making it easy to integrate provenance across distributed systems. The provenance we capture is streamed and consumed by tenant-built auditor applications. We illustrate the usability of our implementation by describing three such applications: demonstrating compliance with data regulations; performing fault/intrusion detection; and implementing data loss prevention. We also show how CamFlow can be leveraged to capture meaningful provenance without modifying existing applications.</p>
+    <p class="pub-abstract">Past success in applying machine learning to data provenance graphs &ndash; a structured representation of the history of operating system activities &ndash; to detect host system intrusions has fueled continued interest in the security community. Recent solutions, particularly anomaly-based approaches using graph neural networks (GNNs) to detect previously unknown attacks, have reported near-perfect accuracy. Surprisingly, despite this high performance, the industry remains reluctant to adopt these intrusion detection systems (IDSs). We identify Quality of Attribution (QoA) as the key factor contributing to this disconnect. QoA refers to the amount of effort required from a human analyst to investigate an IDS&rsquo;s detection output, uncover the root causes of an attack, understand its ramifications, and dismiss potential false alarms. Unfortunately, prior work often generates large volumes of low-QoA output, much of which is irrelevant to attack activities, leading to alert fatigue and analyst burnout. We introduce Orthrus, the first IDS to achieve high-QoA detection on data provenance graphs at the node level. Orthrus detects malicious hosts using a GNN encoder designed to capture the fine-grained spatio-temporal dynamics of system events. It then reconstructs the attack path through dependency analysis to ensure high-QoA detection. We compare Orthrus against five state-of-the-art IDSs. Orthrus reduces the number of nodes requiring manual inspection for attack attribution by several orders of magnitude, significantly easing the burden on security analysts while achieving strong detection performance.</p>
     
 
     
@@ -1057,7 +1046,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>Symposium on Cloud Computing</em>, ACM.</div>
+          <div class="col-12 col-md-9">In <em>USENIX Security Symposium 2025</em> (USENIX Sec'25).</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -1088,7 +1077,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://tfjmp.org/publication/2017-socc/&amp;text=Practical%20Whole-System%20Provenance%20Capture" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://tfjmp.org/publication/2025-usenixsec/&amp;text=ORTHRUS:%20Achieving%20High%20Quality%20of%20Attribution%20in%20Provenance-based%20Intrusion%20Detection%20Systems" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1101,7 +1090,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://tfjmp.org/publication/2017-socc/&amp;t=Practical%20Whole-System%20Provenance%20Capture" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://tfjmp.org/publication/2025-usenixsec/&amp;t=ORTHRUS:%20Achieving%20High%20Quality%20of%20Attribution%20in%20Provenance-based%20Intrusion%20Detection%20Systems" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1114,7 +1103,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Practical%20Whole-System%20Provenance%20Capture&amp;body=https://tfjmp.org/publication/2017-socc/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=ORTHRUS:%20Achieving%20High%20Quality%20of%20Attribution%20in%20Provenance-based%20Intrusion%20Detection%20Systems&amp;body=https://tfjmp.org/publication/2025-usenixsec/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1127,7 +1116,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://tfjmp.org/publication/2017-socc/&amp;title=Practical%20Whole-System%20Provenance%20Capture" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://tfjmp.org/publication/2025-usenixsec/&amp;title=ORTHRUS:%20Achieving%20High%20Quality%20of%20Attribution%20in%20Provenance-based%20Intrusion%20Detection%20Systems" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1140,7 +1129,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Practical%20Whole-System%20Provenance%20Capture%20https://tfjmp.org/publication/2017-socc/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=ORTHRUS:%20Achieving%20High%20Quality%20of%20Attribution%20in%20Provenance-based%20Intrusion%20Detection%20Systems%20https://tfjmp.org/publication/2025-usenixsec/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1153,7 +1142,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://tfjmp.org/publication/2017-socc/&amp;title=Practical%20Whole-System%20Provenance%20Capture" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://tfjmp.org/publication/2025-usenixsec/&amp;title=ORTHRUS:%20Achieving%20High%20Quality%20of%20Attribution%20in%20Provenance-based%20Intrusion%20Detection%20Systems" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1172,6 +1161,12 @@
 
 
   
+  
+    
+
+
+
+
   
     
 
