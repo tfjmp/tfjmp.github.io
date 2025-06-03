@@ -4,25 +4,27 @@
   
   
   <url>
-    <loc>https://tfjmp.org/publication-type/1/</loc><lastmod>2025-01-14T02:54:13-08:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://tfjmp.org/publication-type/1/</loc><lastmod>2025-05-29T11:32:50-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/publication/2025-usenixsec/</loc><lastmod>2025-01-14T02:54:13-08:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://tfjmp.org/publication_types/</loc><lastmod>2025-05-29T11:32:50-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/publication_types/</loc><lastmod>2025-01-14T02:54:13-08:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://tfjmp.org/publication/2025-usenixsec-2/</loc><lastmod>2025-05-29T11:32:50-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/</loc><lastmod>2025-02-13T05:16:51-08:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://tfjmp.org/</loc><lastmod>2025-05-29T11:32:50-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/publication/2024-ccsw/</loc><lastmod>2024-09-11T20:23:21-07:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://tfjmp.org/publication/2025-usenixsec/</loc><lastmod>2025-05-16T18:27:20-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/publication/2024-atc/</loc><lastmod>2024-09-13T11:28:49-07:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://tfjmp.org/publication/2024-ccsw/</loc><lastmod>2025-05-16T18:27:20-07:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://tfjmp.org/publication/2024-atc/</loc><lastmod>2025-05-16T18:27:20-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/publication/2024-rep/</loc><lastmod>2024-04-05T09:10:31-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/publication/2024-sp/</loc><lastmod>2023-11-22T16:13:00-08:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://tfjmp.org/publication/2024-sp/</loc><lastmod>2025-05-16T18:27:20-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/publication-type/4/</loc><lastmod>2023-08-09T08:26:47-07:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://tfjmp.org/publication-type/4/</loc><lastmod>2025-05-16T18:27:20-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/publication/2024-sp-supp/</loc><lastmod>2023-08-09T08:26:47-07:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://tfjmp.org/publication/2024-sp-supp/</loc><lastmod>2025-05-16T18:27:20-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/tag/academic/</loc><lastmod>2024-06-07T08:59:32-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -34,7 +36,7 @@
   <url>
     <loc>https://tfjmp.org/post/phd-proposal/</loc><lastmod>2024-06-07T08:59:32-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/publication/2023-sigcomm-ebpf/</loc><lastmod>2023-09-11T07:23:41-07:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://tfjmp.org/publication/2023-sigcomm-ebpf/</loc><lastmod>2025-05-16T18:27:20-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/post/2022-538p/</loc><lastmod>2023-04-28T19:50:08-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -60,7 +62,7 @@
   <url>
     <loc>https://tfjmp.org/publication/2021-socc/</loc><lastmod>2025-01-13T13:57:48-08:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://tfjmp.org/publication/2021-usenixsec/</loc><lastmod>2021-09-10T21:30:44-07:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://tfjmp.org/publication/2021-usenixsec/</loc><lastmod>2025-05-29T11:32:50-07:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://tfjmp.org/talk/efficient-large-scale-data-provenance-tracking-and-analyzing-intrusion-detection/</loc><lastmod>2021-02-25T11:28:07+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
