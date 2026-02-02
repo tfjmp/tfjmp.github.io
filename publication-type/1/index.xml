@@ -5,12 +5,20 @@
     <link>https://tfjmp.org/publication-type/1/</link>
       <atom:link href="https://tfjmp.org/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tfjmp.org/media/icon_hu08a0612ece3264b0c60a561067d923a4_34621_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://tfjmp.org/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>RegTrack: Uncovering Global Disparities in Third-party Advertising and Tracking</title>
+      <link>https://tfjmp.org/publication/2026-madweb/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2026-madweb/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Toward Practical and Usable Provenance-based Intrusion Detection Systems</title>
@@ -25,7 +33,10 @@
       <link>https://tfjmp.org/publication/2025-usenixsec-2/</link>
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
       <guid>https://tfjmp.org/publication/2025-usenixsec-2/</guid>
-      <description></description>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Or_iAucWqT4?si=E1OlKsDU3fAZRM8p&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -33,7 +44,10 @@
       <link>https://tfjmp.org/publication/2025-usenixsec/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://tfjmp.org/publication/2025-usenixsec/</guid>
-      <description></description>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/_FpCefZeObw?si=sXcdMnS2nWki-uJF&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
