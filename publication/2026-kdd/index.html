@@ -78,10 +78,10 @@
   
     
   
-  <meta name="description" content="The eBPF framework enables execution of user-provided code in the Linux kernel. In the last few years, a large ecosystem of cloud services has leveraged eBPF to enhance container security, system observability, and network management. Meanwhile, incessant discoveries of memory safety vulnerabilities have left the systems community with no choice but to disallow unprivileged eBPF programs, which unfortunately limits eBPF use to only privileged users. To improve run-time safety of the framework, we introduce SafeBPF, a general design that isolates eBPF programs from the rest of the kernel to prevent memory safety vulnerabilities from being exploited. We present a pure software implementation using a Software-based Fault Isolation (SFI) approach and a hardware assisted implementation that leverages ARM’s Memory Tagging Extension (MTE). We show that SafeBPF incurs up to 4% overhead on macrobenchmarks while achieving desired security properties." />
+  <meta name="description" content="Recent provenance-based intrusion detection systems (PIDSs) have demonstrated strong potential for detecting advanced persistent threats (APTs) by applying machine learning to system provenance graphs. However, evaluating and comparing PIDSs remains difficult: prior work uses inconsistent preprocessing pipelines, non-standard dataset splits, and incompatible ground-truth labeling and metrics. These discrepancies undermine reproducibility, impede fair comparison, and impose substantial re-implementation overhead on researchers. We present PIDSMaker, an open-source framework for developing and evaluating PIDSs under consistent protocols. PIDSMaker consolidates eight state-of-the-art systems into a modular, extensible architecture with standardized preprocessing and ground-truth labels, enabling consistent experiments and apples-to-apples comparisons. A YAML-based configuration interface supports rapid prototyping by composing components across systems without code changes. PIDSMaker also includes utilities for ablation studies, hyperparameter tuning and visualization, addressing methodological gaps identified in prior work. By open-sourcing the framework and releasing preprocessed versions of widely used datasets, PIDSMaker lowers the entry barrier for new researchers and facilitates reproducible research in the field." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://tfjmp.org/publication/2024-ccsw/" />
+  <link rel="alternate" hreflang="en-us" href="https://tfjmp.org/publication/2026-kdd/" />
 
   
   
@@ -296,7 +296,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu08a0612ece3264b0c60a561067d923a4_34621_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu08a0612ece3264b0c60a561067d923a4_34621_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://tfjmp.org/publication/2024-ccsw/" />
+  <link rel="canonical" href="https://tfjmp.org/publication/2026-kdd/" />
 
   
   
@@ -321,10 +321,10 @@
     <meta property="twitter:creator" content="@tfjmp" />
   
   <meta property="og:site_name" content="Thomas Pasquier" />
-  <meta property="og:url" content="https://tfjmp.org/publication/2024-ccsw/" />
-  <meta property="og:title" content="SafeBPF: Hardware-assisted Defense-in-depth for eBPF Kernel Extensions | Thomas Pasquier" />
-  <meta property="og:description" content="The eBPF framework enables execution of user-provided code in the Linux kernel. In the last few years, a large ecosystem of cloud services has leveraged eBPF to enhance container security, system observability, and network management. Meanwhile, incessant discoveries of memory safety vulnerabilities have left the systems community with no choice but to disallow unprivileged eBPF programs, which unfortunately limits eBPF use to only privileged users. To improve run-time safety of the framework, we introduce SafeBPF, a general design that isolates eBPF programs from the rest of the kernel to prevent memory safety vulnerabilities from being exploited. We present a pure software implementation using a Software-based Fault Isolation (SFI) approach and a hardware assisted implementation that leverages ARM’s Memory Tagging Extension (MTE). We show that SafeBPF incurs up to 4% overhead on macrobenchmarks while achieving desired security properties." /><meta property="og:image" content="https://tfjmp.org/publication/2024-ccsw/featured.png" />
-    <meta property="twitter:image" content="https://tfjmp.org/publication/2024-ccsw/featured.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://tfjmp.org/publication/2026-kdd/" />
+  <meta property="og:title" content="PIDSMaker: Building and Evaluating Provenance-based Intrusion Detection Systems | Thomas Pasquier" />
+  <meta property="og:description" content="Recent provenance-based intrusion detection systems (PIDSs) have demonstrated strong potential for detecting advanced persistent threats (APTs) by applying machine learning to system provenance graphs. However, evaluating and comparing PIDSs remains difficult: prior work uses inconsistent preprocessing pipelines, non-standard dataset splits, and incompatible ground-truth labeling and metrics. These discrepancies undermine reproducibility, impede fair comparison, and impose substantial re-implementation overhead on researchers. We present PIDSMaker, an open-source framework for developing and evaluating PIDSs under consistent protocols. PIDSMaker consolidates eight state-of-the-art systems into a modular, extensible architecture with standardized preprocessing and ground-truth labels, enabling consistent experiments and apples-to-apples comparisons. A YAML-based configuration interface supports rapid prototyping by composing components across systems without code changes. PIDSMaker also includes utilities for ablation studies, hyperparameter tuning and visualization, addressing methodological gaps identified in prior work. By open-sourcing the framework and releasing preprocessed versions of widely used datasets, PIDSMaker lowers the entry barrier for new researchers and facilitates reproducible research in the field." /><meta property="og:image" content="https://tfjmp.org/publication/2026-kdd/featured.png" />
+    <meta property="twitter:image" content="https://tfjmp.org/publication/2026-kdd/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -354,12 +354,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://tfjmp.org/publication/2024-ccsw/"
+    "@id": "https://tfjmp.org/publication/2026-kdd/"
   },
-  "headline": "SafeBPF: Hardware-assisted Defense-in-depth for eBPF Kernel Extensions",
+  "headline": "PIDSMaker: Building and Evaluating Provenance-based Intrusion Detection Systems",
   
   "image": [
-    "https://tfjmp.org/publication/2024-ccsw/featured.png"
+    "https://tfjmp.org/publication/2026-kdd/featured.png"
   ],
   
   "datePublished": "2017-01-01T00:00:00Z",
@@ -367,7 +367,7 @@
   
   "author": {
     "@type": "Person",
-    "name": "SY Lim"
+    "name": "T Bilot"
   },
   
   "publisher": {
@@ -378,7 +378,7 @@
       "url": "https://tfjmp.org/media/icon_hu08a0612ece3264b0c60a561067d923a4_34621_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "The eBPF framework enables execution of user-provided code in the Linux kernel. In the last few years, a large ecosystem of cloud services has leveraged eBPF to enhance container security, system observability, and network management. Meanwhile, incessant discoveries of memory safety vulnerabilities have left the systems community with no choice but to disallow unprivileged eBPF programs, which unfortunately limits eBPF use to only privileged users. To improve run-time safety of the framework, we introduce SafeBPF, a general design that isolates eBPF programs from the rest of the kernel to prevent memory safety vulnerabilities from being exploited. We present a pure software implementation using a Software-based Fault Isolation (SFI) approach and a hardware assisted implementation that leverages ARM’s Memory Tagging Extension (MTE). We show that SafeBPF incurs up to 4% overhead on macrobenchmarks while achieving desired security properties."
+  "description": "Recent provenance-based intrusion detection systems (PIDSs) have demonstrated strong potential for detecting advanced persistent threats (APTs) by applying machine learning to system provenance graphs. However, evaluating and comparing PIDSs remains difficult: prior work uses inconsistent preprocessing pipelines, non-standard dataset splits, and incompatible ground-truth labeling and metrics. These discrepancies undermine reproducibility, impede fair comparison, and impose substantial re-implementation overhead on researchers. We present PIDSMaker, an open-source framework for developing and evaluating PIDSs under consistent protocols. PIDSMaker consolidates eight state-of-the-art systems into a modular, extensible architecture with standardized preprocessing and ground-truth labels, enabling consistent experiments and apples-to-apples comparisons. A YAML-based configuration interface supports rapid prototyping by composing components across systems without code changes. PIDSMaker also includes utilities for ablation studies, hyperparameter tuning and visualization, addressing methodological gaps identified in prior work. By open-sourcing the framework and releasing preprocessed versions of widely used datasets, PIDSMaker lowers the entry barrier for new researchers and facilitates reproducible research in the field."
 }
 </script>
 
@@ -389,7 +389,7 @@
   
 
 
-  <title>SafeBPF: Hardware-assisted Defense-in-depth for eBPF Kernel Extensions | Thomas Pasquier</title>
+  <title>PIDSMaker: Building and Evaluating Provenance-based Intrusion Detection Systems | Thomas Pasquier</title>
 
   
   
@@ -409,7 +409,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="efd89ba7f10d5aec14ef34ab361d778b" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="124aba0102600eb6a9f710e3518a7495" >
 
   
   
@@ -899,7 +899,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>SafeBPF: Hardware-assisted Defense-in-depth for eBPF Kernel Extensions</h1>
+  <h1>PIDSMaker: Building and Evaluating Provenance-based Intrusion Detection Systems</h1>
 
   
 
@@ -916,9 +916,8 @@
     
 
   <span >
-      SY Lim</span>, <span >
-      T Prasad</span>, <span >
-      X Han</span>, <span >
+      T Bilot</span>, <span >
+      B Jiang</span>, <span >
       T Pasquier</span>
   </div>
   
@@ -930,7 +929,7 @@
     
       
     
-    October, 2024
+    May, 2026
   </span>
   
 
@@ -970,14 +969,14 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="/publications/2024-ccsw.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/publications/2026-kdd.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/2024-ccsw/cite.bib">
+        data-filename="/publication/2026-kdd/cite.bib">
   Cite
 </a>
 
@@ -985,10 +984,6 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/UBC-BPF" target="_blank" rel="noopener">
-  Project
-</a>
-
 
 
 
@@ -1005,9 +1000,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 354px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 328px;">
   <div style="position: relative">
-    <img src="/publication/2024-ccsw/featured_hu817fafa88d082ace8a053cff7f23a5c3_37006_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="354" alt="" class="featured-image">
+    <img src="/publication/2026-kdd/featured_hu6dfa0aff52904bad18fe4a11e28151d0_156429_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="328" alt="" class="featured-image">
     
   </div>
 </div>
@@ -1018,7 +1013,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">The eBPF framework enables execution of user-provided code in the Linux kernel. In the last few years, a large ecosystem of cloud services has leveraged eBPF to enhance container security, system observability, and network management. Meanwhile, incessant discoveries of memory safety vulnerabilities have left the systems community with no choice but to disallow unprivileged eBPF programs, which unfortunately limits eBPF use to only privileged users. To improve run-time safety of the framework, we introduce SafeBPF, a general design that isolates eBPF programs from the rest of the kernel to prevent memory safety vulnerabilities from being exploited. We present a pure software implementation using a Software-based Fault Isolation (SFI) approach and a hardware assisted implementation that leverages ARM’s Memory Tagging Extension (MTE). We show that SafeBPF incurs up to 4% overhead on macrobenchmarks while achieving desired security properties.</p>
+    <p class="pub-abstract">Recent provenance-based intrusion detection systems (PIDSs) have demonstrated strong potential for detecting advanced persistent threats (APTs) by applying machine learning to system provenance graphs. However, evaluating and comparing PIDSs remains difficult: prior work uses inconsistent preprocessing pipelines, non-standard dataset splits, and incompatible ground-truth labeling and metrics. These discrepancies undermine reproducibility, impede fair comparison, and impose substantial re-implementation overhead on researchers. We present PIDSMaker, an open-source framework for developing and evaluating PIDSs under consistent protocols. PIDSMaker consolidates eight state-of-the-art systems into a modular, extensible architecture with standardized preprocessing and ground-truth labels, enabling consistent experiments and apples-to-apples comparisons. A YAML-based configuration interface supports rapid prototyping by composing components across systems without code changes. PIDSMaker also includes utilities for ablation studies, hyperparameter tuning and visualization, addressing methodological gaps identified in prior work. By open-sourcing the framework and releasing preprocessed versions of widely used datasets, PIDSMaker lowers the entry barrier for new researchers and facilitates reproducible research in the field.</p>
     
 
     
@@ -1046,7 +1041,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>ACM Cloud Computing Security Workshop</em> (ACM CCSW'24).</div>
+          <div class="col-12 col-md-9">In <em>ACM Conference on Knowledge Discovery and Data Mining 2026</em> (ACM KDD'26).</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -1056,10 +1051,7 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"><div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PQNDsdP27Hw?si=opo-XDNivz1HDLXl&amp;start=15045" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-</div>
+    <div class="article-style"></div>
 
     
 
@@ -1080,7 +1072,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://tfjmp.org/publication/2024-ccsw/&amp;text=SafeBPF:%20Hardware-assisted%20Defense-in-depth%20for%20eBPF%20Kernel%20Extensions" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://tfjmp.org/publication/2026-kdd/&amp;text=PIDSMaker:%20Building%20and%20Evaluating%20Provenance-based%20Intrusion%20Detection%20Systems" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1093,7 +1085,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://tfjmp.org/publication/2024-ccsw/&amp;t=SafeBPF:%20Hardware-assisted%20Defense-in-depth%20for%20eBPF%20Kernel%20Extensions" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://tfjmp.org/publication/2026-kdd/&amp;t=PIDSMaker:%20Building%20and%20Evaluating%20Provenance-based%20Intrusion%20Detection%20Systems" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1106,7 +1098,7 @@
       
       
       <li>
-        <a href="mailto:?subject=SafeBPF:%20Hardware-assisted%20Defense-in-depth%20for%20eBPF%20Kernel%20Extensions&amp;body=https://tfjmp.org/publication/2024-ccsw/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=PIDSMaker:%20Building%20and%20Evaluating%20Provenance-based%20Intrusion%20Detection%20Systems&amp;body=https://tfjmp.org/publication/2026-kdd/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1119,7 +1111,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://tfjmp.org/publication/2024-ccsw/&amp;title=SafeBPF:%20Hardware-assisted%20Defense-in-depth%20for%20eBPF%20Kernel%20Extensions" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://tfjmp.org/publication/2026-kdd/&amp;title=PIDSMaker:%20Building%20and%20Evaluating%20Provenance-based%20Intrusion%20Detection%20Systems" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1132,7 +1124,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=SafeBPF:%20Hardware-assisted%20Defense-in-depth%20for%20eBPF%20Kernel%20Extensions%20https://tfjmp.org/publication/2024-ccsw/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=PIDSMaker:%20Building%20and%20Evaluating%20Provenance-based%20Intrusion%20Detection%20Systems%20https://tfjmp.org/publication/2026-kdd/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1145,7 +1137,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://tfjmp.org/publication/2024-ccsw/&amp;title=SafeBPF:%20Hardware-assisted%20Defense-in-depth%20for%20eBPF%20Kernel%20Extensions" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://tfjmp.org/publication/2026-kdd/&amp;title=PIDSMaker:%20Building%20and%20Evaluating%20Provenance-based%20Intrusion%20Detection%20Systems" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1164,12 +1156,6 @@
 
 
   
-  
-    
-
-
-
-
   
     
 
