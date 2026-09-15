@@ -5,12 +5,20 @@
     <link>https://tfjmp.org/publication/</link>
       <atom:link href="https://tfjmp.org/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-GB</language>
     <image>
-      <url>https://tfjmp.org/media/icon_hu08a0612ece3264b0c60a561067d923a4_34621_512x512_fill_lanczos_center_3.png</url>
+      <url>https://tfjmp.org/media/icon_hu_9b56d2c30150936b.png</url>
       <title>Publications</title>
       <link>https://tfjmp.org/publication/</link>
     </image>
+    
+    <item>
+      <title>LARES: Host-centered Lateral Movement Detection via Inductive Graph Reasoning</title>
+      <link>https://tfjmp.org/publication/2026-acsac/</link>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://tfjmp.org/publication/2026-acsac/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>PIDSMaker: Building and Evaluating Provenance-based Intrusion Detection Systems</title>
